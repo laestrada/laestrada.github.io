@@ -193,8 +193,8 @@ pre {
 
 .img-circle-avatar {
   width: 100%;
-  max-width: 150px;
-  border-radius: 50%;
+  max-width: 250px;
+  border-radius: 10%;
 }
 
 .bio {
@@ -222,12 +222,8 @@ pre {
 .flex-container {
   display: flex;
   padding-top: 40px;
-  
-  // if screen smaller than 800px switch to vertical alignment
-  @include media-query ($on-laptop) {
-    flex-direction: column;
-    align-items: center;
-  }
+  flex-direction: column;
+  align-items: center;
 }
 
 /**
