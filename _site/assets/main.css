@@ -51,7 +51,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .img-circle-avatar { width: 100%; max-width: 250px; border-radius: 10%; }
 
-.bio { padding-top: 50px; padding-left: 20px; }
+.bio { padding-top: 50px; }
 
 .social-link-wrapper { display: flex; }
 @media screen and (max-width: 600px) { .social-link-wrapper { flex-direction: column; align-items: center; } }
