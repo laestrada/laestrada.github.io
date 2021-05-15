@@ -49,7 +49,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .wrapper { max-width: -webkit-calc(800px - (30px * 2)); max-width: calc(800px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
 @media screen and (max-width: 800px) { .wrapper { max-width: -webkit-calc(800px - (30px)); max-width: calc(800px - (30px)); padding-right: 15px; padding-left: 15px; } }
 
-.img-circle-avatar { width: 100%; max-width: 150px; border-radius: 50%; }
+.img-circle-avatar { width: 100%; max-width: 250px; border-radius: 10%; }
 
 .bio { padding-top: 50px; padding-left: 20px; }
 
@@ -59,8 +59,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .copywrite { font-size: small; color: #828282; }
 @media screen and (min-width: 600px) { .copywrite { align-self: flex-end; margin-left: auto; } }
 
-.flex-container { display: flex; padding-top: 40px; }
-@media screen and (max-width: 800px) { .flex-container { flex-direction: column; align-items: center; } }
+.flex-container { display: flex; padding-top: 40px; flex-direction: column; align-items: center; }
 
 /** Clearfix */
 .wrapper:after, .footer-col-wrapper:after { content: ""; display: table; clear: both; }

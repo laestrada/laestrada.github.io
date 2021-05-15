@@ -39,8 +39,7 @@ seismic noise
 
 * Presented research at American Geophysical Union conference 2019
 
-* Wrote scripts that pull data in real time directly from Alaskan
-Transportable Arrays api
+* Wrote scripts that pull data in real time directly from the IRIS data center API
 
 **Research Assistant**, Cohen Lab - Williams College\
 Supervised by Dr. Phoebe Cohen
