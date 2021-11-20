@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: recipes
 title: Cooking
 permalink: /cooking/
 ---

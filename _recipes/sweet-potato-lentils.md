@@ -1,13 +1,12 @@
 ---
 layout: recipe
-permalink: /recipe/
 date: 2017-01-05
 title: 1-Pot Golden Curry Lentil Soup
 author: Minimalist Baker
-categories:
-  - Cookies
+type: Soups
 featured_image: https://minimalistbaker.com/wp-content/uploads/2018/07/Golden-Curried-Lentil-Soup-SQUARE-200x200.jpg
 link: https://minimalistbaker.com/1-pot-golden-curry-lentil-soup/
+output: true
 ---
 
 ## Details
