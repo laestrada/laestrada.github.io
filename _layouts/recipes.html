@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+{{ content }}
+<h3>Soups</h3>
+<ul>
+    {% for post in site.recipes %}
+        {% if post.type == "Soups" %}
+        <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endif %}
+    {% endfor %}
+</ul>
+<h3>Asian</h3>
+<ul>
+    {% for post in site.recipes %}
+        {% if post.type == "Asian" %}
+        <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endif %}
+    {% endfor %}
+</ul>
+<h3>Dominican</h3>
+<ul>
+    {% for post in site.recipes %}
+        {% if post.type == "Dominican" %}
+        <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endif %}
+    {% endfor %}
+</ul>
+<h3>Salads</h3>
+<ul>
+    {% for post in site.recipes %}
+        {% if post.type == "Salads" %}
+        <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endif %}
+    {% endfor %}
+</ul>
+<h3>Other</h3>
+<ul>
+    {% for post in site.recipes %}
+        {% if post.type == "Other" %}
+        <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endif %}
+    {% endfor %}
+</ul>
