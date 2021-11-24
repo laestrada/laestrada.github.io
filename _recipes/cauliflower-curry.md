@@ -12,7 +12,7 @@ link: https://minimalistbaker.com/1-pot-yellow-chickpea-cauliflower-curry/
 Easy, 1-pot Vibrant Yellow Curry with cauliflower and chickpeas! A 30-minute hearty and satisfying entrée or side perfect over greens, cauliflower rice, or grains!
 
 Servings: 4
-### Ingredients
+## Ingredients
 #### CURRY
 * 2 Tbsp water (or coconut oil)
 * 1/3 cup shallot (chopped)
@@ -36,13 +36,15 @@ Servings: 4
 * Sesame seeds
 * Avocado
 
-### Instructions
+## Preparation
 1. Heat a large pot, rimmed cast-iron, or metal skillet over medium heat. Once hot, add water or coconut oil, shallot, garlic, ginger, and serrano pepper. Sauté for 2-3 minutes, stirring frequently.
 Add curry paste (starting with the smallest suggested amount and adding more later if needed) and stir. Cook for 2 minutes more. Add coconut milk (see photo), turmeric, maple syrup or coconut sugar (optional), coconut aminos (or tamari), and stir. Bring to a simmer over medium heat.
 Once simmering, add cauliflower and chickpeas and slightly reduce heat. You want a simmer, not a boil, which should be around low to medium-low heat.
+
 1. Cover and cook for 10-15 minutes, stirring occasionally, to soften the cauliflower and chickpeas and infuse them with curry flavor. Keep at a simmer – lower heat if boiling.
 At this time, taste and adjust the flavor of the broth as needed. We added more coconut sugar for sweetness, coconut aminos for saltiness, and turmeric for earthiness. You can also add more curry paste for more spice and intense curry flavor. Don’t be shy with seasonings – this curry should be very flavorful.
 Serve as is, or over rice, quinoa, or greens (optional). Garnish with desired toppings such as sesame seeds, cilantro, lime, or diced red onion (optional).
+
 1. Store leftovers in the refrigerator up to 5 days or in the freezer up to 1 month. Reheat on a stovetop. Add additional coconut milk if it needs more moisture.
 Video
 

@@ -16,7 +16,7 @@ I made a couple changes to this recipe due to personal preferences. The original
 You could easily use whole wheat orzo here, or I suspect, another grain. However, you’ll have to do a bit of fiddling with the broth level to adjust for each one. Grains that take longer than pasta to cook (just about all of them) would probably benefit from par-cooking before they go in.
 
 A few other substitions: I didn’t have any vegetable broth and used water. I felt it wasn’t lacking at all for flavor. If you don’t have fresh tomatoes, you can use canned ones (though fresh will hold up better on top). If you don’t have fresh oregano, use half the amount of dried oregano. If you don’t like or don’t have either, thyme, fresh or dried, would work well here but it’s much stronger in flavor and only half as much should be needed.
-### Ingredients
+## Ingredients
 * 1 large (mine was just over 1 1/4 pounds/570 grams) eggplant, cut into 3/4-inch dice
 * Salt and black pepper
 * 1/4 cup (60 ml) olive oil
@@ -33,7 +33,7 @@ A few other substitions: I didn’t have any vegetable broth and used water. I f
 * 1 1/2 ounces (a generous 1/2 cup or 45 grams) parmesan, grated
 * 3 medium tomatoes, diced
 
-### Instructions
+## Preparation
 1. Sprinkle your eggplant generously with salt and let it drain in a colander for 30 minutes. I used this time to get the rest of my ingredients ready. After 30 minutes, rinse it well and pat it dry on towels.
 
 1. Preheat your oven to 350°F. Heat a large frying pan over medium-high heat. Once hot, add the oil and once the oil is shimmering, add the eggplant. Fry for 8 minutes, stirring pieces occasionally. Using a slotted spoon or spatula, transfer them to paper towels to drain. Add celery and carrots to remaining oil and cook for 1. 3 minutes before adding onion and garlic. Cook together for 5 more minutes on medium heat. Stir in the orzo and tomato paste and cook for two minutes more. Off the heat, add the oregano, mozzarella, parmesan, tomatoes, fried eggplant, lemon zest, 1 teaspoon table salt, many grinds of black pepper and the stock and mix well.

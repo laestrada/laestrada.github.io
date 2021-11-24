@@ -27,7 +27,7 @@ Freezer Friendly 1 month
 
 Does it keep? 3-4 Days
 
-### Ingredients
+## Ingredients
 
 #### CURRY
 
@@ -54,7 +54,7 @@ Does it keep? 3-4 Days
 *   Brown rice\* or coconut quinoa
 *   Steamed broccoli
 
-### Instructions
+## Preparation
 
 1.   Heat a large pot over medium heat. Once hot, add coconut oil, shallot, ginger, garlic, and pepper. Sauté for 2-3 minutes, stirring frequently.
     

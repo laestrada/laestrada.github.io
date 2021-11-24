@@ -7,7 +7,7 @@ type: Dominican
 featured_image: /images/asopao.jpg
 link:
 ---
-### Ingredients
+## Ingredients
 * 3 tablespoons olive oil
 * 1 large yellow onion, diced.
 * 1 pepper (any color), diced. 
@@ -24,10 +24,15 @@ link:
 * optional: cilantro for garnish
 ### Steps:
 1. Heat up olive oil in a large pot. Add diced pepper, onion, oregano, and cumin. Stir occasionally.
+
 2. When the onions have softened add garlic. Let cook for ~1 minute, then add olives. Don't be afraid to put the olive liquid in too -- it adds flavor!
+
 3. Add tomato paste, sazon, and 1.5 cups water. 
+
 4. Stir it up and add Chicken. Let chicken simmer for 10 minutes.
+
 5. Add rice and a lot of cold water into the pot, enough that you will be able to fit the carrots and potatoes in.
+
 6. Wait until the water starts boiling, then add vegetables. Let simmer until rice is cooked and veggies are soft. Add salt, bouillion, or sazon if more flavor is needed.
 
 #### Variation
