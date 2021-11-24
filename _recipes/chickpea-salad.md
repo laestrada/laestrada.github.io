@@ -10,7 +10,9 @@ link: https://smittenkitchen.com/2009/01/warm-butternut-squash-and-chickpea-sala
 ## Details
 Yield: 4 servings
 
-For salad:
+## Ingredients
+
+### For salad:
 * 1 medium butternut squash (about 2 to 2 1/2 pounds), peeled, seeded, and cut into 1 1/2-inch pieces
 * 1 medium garlic clove, minced or pressed
 * 1/2 teaspoons ground allspice (I skip this)
@@ -20,12 +22,14 @@ For salad:
 * 1/4 of a medium red onion, finely chopped
 * 1/4 cup coarsely chopped fresh cilantro or parsley
 
-For tahini dressing:
+### For tahini dressing:
 * 1 medium garlic clove, finely minced with a pinch of salt
 * 1/4 cup lemon juice
 * 3 tablespoons well-stirred tahini
 * 2 tablespoons water
 * 2 tablespoons olive oil, plus more to taste
+
+## Preparation
 
 1. Preheat the oven to 425°F.
 
