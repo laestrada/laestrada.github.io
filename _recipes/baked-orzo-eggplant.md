@@ -16,6 +16,7 @@ I made a couple changes to this recipe due to personal preferences. The original
 You could easily use whole wheat orzo here, or I suspect, another grain. However, you’ll have to do a bit of fiddling with the broth level to adjust for each one. Grains that take longer than pasta to cook (just about all of them) would probably benefit from par-cooking before they go in.
 
 A few other substitions: I didn’t have any vegetable broth and used water. I felt it wasn’t lacking at all for flavor. If you don’t have fresh tomatoes, you can use canned ones (though fresh will hold up better on top). If you don’t have fresh oregano, use half the amount of dried oregano. If you don’t like or don’t have either, thyme, fresh or dried, would work well here but it’s much stronger in flavor and only half as much should be needed.
+
 ## Ingredients
 * 1 large (mine was just over 1 1/4 pounds/570 grams) eggplant, cut into 3/4-inch dice
 * Salt and black pepper

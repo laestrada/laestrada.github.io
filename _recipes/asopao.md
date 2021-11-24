@@ -22,7 +22,9 @@ link:
 * 4 cups cut up veggies -- can use any of the following: potatoes, carrots, sweet potatoes, yukka, plaintains
 * salt and pepper to taste
 * optional: cilantro for garnish
-### Steps:
+
+## Preparation:
+
 1. Heat up olive oil in a large pot. Add diced pepper, onion, oregano, and cumin. Stir occasionally.
 
 2. When the onions have softened add garlic. Let cook for ~1 minute, then add olives. Don't be afraid to put the olive liquid in too -- it adds flavor!

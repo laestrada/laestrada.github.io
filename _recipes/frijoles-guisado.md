@@ -20,7 +20,8 @@ link:
 - 1.5 teaspoons cumin
 - salt and pepper to taste
 - optional: cilantro for garnish
-### Steps:
+
+## Preparation:
 
 1. Heat up olive oil in a medium sized pan. Add diced pepper, onion, oregano, and cumin. Stir occasionally.
 

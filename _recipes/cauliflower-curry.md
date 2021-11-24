@@ -46,39 +46,12 @@ At this time, taste and adjust the flavor of the broth as needed. We added more 
 Serve as is, or over rice, quinoa, or greens (optional). Garnish with desired toppings such as sesame seeds, cilantro, lime, or diced red onion (optional).
 
 1. Store leftovers in the refrigerator up to 5 days or in the freezer up to 1 month. Reheat on a stovetop. Add additional coconut milk if it needs more moisture.
-Video
 
 ### Notes
-\*Based on my research, the only difference between red and yellow curry paste is lemon juice and turmeric powder. So if you have yellow curry paste, use that and omit the extra turmeric (to taste). But if using red (as I suggest), simply include the turmeric as instructed.
+* Based on my research, the only difference between red and yellow curry paste is lemon juice and turmeric powder. So if you have yellow curry paste, use that and omit the extra turmeric (to taste). But if using red (as I suggest), simply include the turmeric as instructed.
 
-\*Ensure that your curry paste is vegan friendly (and does not contain fish ingredients). We love this brand.
+* Ensure that your curry paste is vegan friendly (and does not contain fish ingredients). We love this brand.
 
-\*In place of maple syrup, you can also substitute coconut sugar.
+* In place of maple syrup, you can also substitute coconut sugar.
 
-\*1 1/4 cup cooked chickpeas is equal to 1 15-ounce (425 g) can chickpeas.
-
-\*Find my favorite method for cooking brown rice at Saveur!
-
-\*Nutrition information is a rough estimate calculated without optional ingredients and with water (not oil).
-
-\*Inspired by our Coconut Curried Golden Lentils and the “bombay” bowl at Vibe in Newport Beach.
-
-### Nutrition (1 of 4 servings)
-Serving: 1 serving
-Calories: 297
-Carbohydrates: 36.1 g
-Protein: 9.7 g
-Fat: 13.1 g
-Saturated Fat: 7.6 g
-Polyunsaturated Fat: 1.06 g
-Monounsaturated Fat: 0.54 g
-Trans Fat: 0 g
-Cholesterol: 0 mg
-Sodium: 801 mg
-Potassium: 285 mg
-Fiber: 8.1 g
-Sugar: 9.5 g
-Vitamin A: 1540 IU
-Vitamin C: 15.83 mg
-Calcium: 85.97 mg
-Iron: 2.9 mg
+* 1 1/4 cup cooked chickpeas is equal to 1 15-ounce (425 g) can chickpeas.

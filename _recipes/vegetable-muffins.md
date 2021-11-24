@@ -1,7 +1,7 @@
 ---
 layout: recipe
 date: 2017-01-05
-title: Vegatable Savoury Muffins
+title: Vegetable Savoury Muffins
 author: Healthy Little Foodies
 type: Baking
 featured_image: https://www.healthylittlefoodies.com/wp-content/uploads/2018/01/savoury-muffin-hand.jpg
