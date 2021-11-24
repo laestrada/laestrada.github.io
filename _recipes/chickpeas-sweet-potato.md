@@ -48,7 +48,6 @@ Use your hands to toss each section (sweet potatoes, cabbage, and chickpeas sepa
 
 1. Bake for 30 minutes, then remove from oven, toss chickpeas and cabbage (separately), and flip sweet potatoes to ensure even baking. Return to oven and bake for an additional 10-15 minutes or until the sweet potatoes are golden brown and tender, cabbage is tender, and chickpeas are golden brown and slightly crispy.
 To serve: Steam kale or massage with lemon juice and olive oil and divide between plates, then top with sweet potatoes, cabbage, and chickpeas. Drizzle on the tahini (or dressing of choice) and serve. Sesame seeds, lemon wedges, or cilantro make nice additional garnishes (all optional).
-Video
 
 ### Notes
 \*Seasonings inspired by the Crackling Cauliflower Recipe from Eating Bird Food.
