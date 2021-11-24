@@ -43,7 +43,7 @@ output: true
 *   Cilantro
 *   Coconut cream
 
-## Preparation
+### Instructions
 
 1.   Heat a large rimmed skillet or pot over medium heat. Once hot, add water (or oil) and shallot. Sauté for 3 minutes, stirring frequently, until softened and slightly browned.
    
@@ -57,9 +57,6 @@ output: true
    
 1.   Divide between serving bowls and garnish with fresh cilantro and lemon juice or a little fresh coconut milk or cream (optional). Store cooled leftovers in the refrigerator up to 5 days or in the freezer up to 1 month. Reheat on the stovetop until hot, adding more vegetable broth to thin as needed. 
     
-
-### Video
-
 ### Notes
 
 \*Nutrition information is a rough estimate calculated without optional ingredients.  
