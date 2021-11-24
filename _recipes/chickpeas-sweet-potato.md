@@ -19,7 +19,7 @@ TOTAL TIME: 1 hour
 
 Servings: 4
 
-### Ingredients
+## Ingredients
 #### VEGGIES + CHICKPEAS
 * 2 large sweet potato, skin on, cut into wedges (organic when possible)
 * 4 cups thinly sliced cabbage (or sub cauliflower or other seasonal vegetable)
@@ -31,6 +31,7 @@ Servings: 4
 * 1 tsp sea salt
 * 4 Tbsp curry powder (or store-bought)
 * 1 tsp garam masala
+
 #### FOR SERVING
 * 4-6 cups kale (or other green)
 * 0.5 cup tahini, DIVIDED (or sub Lemon Tahini Dressing, Green Curry Tahini Dressing, Mango Chutney, or Green Chutney)
@@ -38,7 +39,7 @@ Servings: 4
 * Cilantro (optional)
 * Lemon wedges (optional)
 
-### Instructions
+## Preparation
 1. Preheat oven to 410 degrees F (210 C) and line a large baking sheet with parchment paper or a silicone baking mat.
 
 1. Add sweet potato wedges, cabbage, and chickpeas to the pan. Top only the veggies (not the chickpeas) with the diced onion. Then sprinkle garlic and ginger over the whole pan (including the chickpeas).

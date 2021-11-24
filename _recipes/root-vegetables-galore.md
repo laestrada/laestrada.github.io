@@ -13,7 +13,7 @@ This dish was born out of a fridge clean-out, and is a great way to use up whate
 
 * Prep 8-10 min
 * Cook 60 min
-### Ingredients
+## Ingredients
 * ½ celeriac (400g), peeled and cut into 6 wedges (350g)
 * 2 baking potatoes, skin-on, each cut into 8 wedges (500g)
 * ½ small kabocha or crown prince pumpkin, skin-on, seeds removed and cut into 6 wedges (500g)

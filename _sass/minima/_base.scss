@@ -196,6 +196,10 @@ pre {
   max-width: 250px;
   border-radius: 10%;
 }
+.img-circle-recipe {
+  max-height: 600px;
+  border-radius: 10%;
+}
 
 .bio {
   padding-top: 50px;
@@ -223,6 +227,13 @@ pre {
   padding-top: 40px;
   flex-direction: column;
   align-items: center;
+}
+.flex-title {
+  display: flex;
+  padding-top: 40px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 /**

@@ -13,7 +13,7 @@ Servings: 4
 Spicy Cold tofu or Liangban doufu is a great summer dish that is easy to make and delicious. Spicy bean sauce, sesame oil, raw scallions, and garlic form the character of this 5 minute spicy cold tofu recipe.
 
 
-### Ingredients
+## Ingredients
 * 1 tablespoon soy sauce
 * 1 tablespoon spicy bean paste
 * 1 teaspoon sesame oil
@@ -23,7 +23,10 @@ Spicy Cold tofu or Liangban doufu is a great summer dish that is easy to make an
 * 1 pound silken tofu
 * Optional: chopped thai basil, chopped cilantro, or chopped thousand year old egg
 
-### Instructions
+## Preparation
+
 1. Put the soy sauce, bean paste, sesame oil, and sugar in a small bowl. Add half the garlic and half the scallions. Mix it all together.
+
 1. Slice the tofu and lay it in your serving bowl.
+
 1. Drizzle the sauce over it and garnish with the rest of the garlic and scallion on top. You can also garnish with a bit of chopped Thai basil and/or cilantro. You can also stir in a chopped thousand year old egg.

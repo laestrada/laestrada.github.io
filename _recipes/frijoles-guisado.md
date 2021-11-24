@@ -7,7 +7,7 @@ type: Dominican
 featured_image: 
 link:
 ---
-### Ingredients
+## Ingredients
 - ~1.5 tablespoons olive oil
 - .5 yellow onion, diced.
 - .5 pepper (any color), diced. 
@@ -21,9 +21,13 @@ link:
 - salt and pepper to taste
 - optional: cilantro for garnish
 ### Steps:
+
 1. Heat up olive oil in a medium sized pan. Add diced pepper, onion, oregano, and cumin. Stir occasionally.
+
 2. When the onions have softened add garlic. Let cook for ~1 minute, then add olives. Don't be afraid to put the olive liquid in too -- it adds flavor!
+
 3. Add tomato paste, beans, and sazon. Stir it all up and let it simmer for at least 10 minutes. Add water if it is too viscous.
+
 4. Salt to taste. Add garnish of cilantro just before serving.
 
 #### Variation

@@ -22,7 +22,7 @@ output: true
 * Freezer Friendly 1 month
 * Does it keep? 5 Days
 
-### Ingredients
+## Ingredients
 
 *   1/4 cup water (or sub half the amount in oil)
 *   1/4 cup thinly sliced shallot (or onion)
@@ -43,7 +43,7 @@ output: true
 *   Cilantro
 *   Coconut cream
 
-### Instructions
+## Preparation
 
 1.   Heat a large rimmed skillet or pot over medium heat. Once hot, add water (or oil) and shallot. Sauté for 3 minutes, stirring frequently, until softened and slightly browned.
    
