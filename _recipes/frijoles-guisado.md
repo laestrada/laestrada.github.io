@@ -1,7 +1,7 @@
 ---
 layout: recipe
 date: 2017-01-05
-title: Lucas's Beans Recipe (Frijoles Guisados)
+title: Abuelas Frijoles Guisados
 author: Lucas's Abuela
 type: Dominican
 featured_image: 
