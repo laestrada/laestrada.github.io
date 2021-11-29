@@ -3,7 +3,7 @@ layout: recipe
 date: 2017-01-05
 title: Taiwanese Sesame Noodles
 author: Che Jorge
-type: Asian
+type: Mains
 featured_image: https://i0.wp.com/chejorge.com/wp-content/uploads/2021/01/IMG_0410.jpg?zoom=2&resize=930%2C620&ssl=1
 link: https://chejorge.com/2021/01/27/taiwanese-sesame-noodles-ma-jiang-mian/
 ---

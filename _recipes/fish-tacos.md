@@ -3,7 +3,7 @@ layout: recipe
 date: 2017-01-05
 title: Fish Tacos
 author: NYT Cooking
-type: Other
+type: Mains
 featured_image: https://static01.nyt.com/images/2020/07/09/dining/fish-tacos-horizontal/merlin_125553677_41461c04-77ba-456c-8a57-eeed2227f542-articleLarge.jpg
 link: https://cooking.nytimes.com/recipes/1012445-fish-tacos?action=click&module=RecipeBox&pgType=recipebox-page&region=all&rank=6
 ---

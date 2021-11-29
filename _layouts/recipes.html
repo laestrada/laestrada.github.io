@@ -13,16 +13,6 @@ layout: default
         {% endif %}
     {% endfor %}
 </ul>
-<h3>Asian</h3>
-<ul>
-    {% for post in site.recipes %}
-        {% if post.type == "Asian" %}
-        <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endif %}
-    {% endfor %}
-</ul>
 <h3>Abuela's Recipes</h3>
 <ul>
     {% for post in site.recipes %}
@@ -43,10 +33,10 @@ layout: default
         {% endif %}
     {% endfor %}
 </ul>
-<h3>Other</h3>
+<h3>Mains</h3>
 <ul>
     {% for post in site.recipes %}
-        {% if post.type == "Other" %}
+        {% if post.type == "Mains" %}
         <li>
             <a href="{{ post.url }}">{{ post.title }}</a>
         </li>

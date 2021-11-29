@@ -3,7 +3,7 @@ layout: recipe
 date: 2017-01-05
 title: Root vegetables with harissa chickpeas, tahini yoghurt and dukkah
 author: Yotam Ottolenghi
-type: Other
+type: Mains
 featured_image: https://i.guim.co.uk/img/media/3af7235819c727042396ffdc3e7db67b399f3966/0_0_3731_4384/master/3731.jpg?width=620&quality=45&auto=format&fit=max&dpr=2&s=57da1042c2482f1f0b434b7416121a63
 link: https://www.theguardian.com/food/2020/oct/31/yotam-ottolenghi-recipes-autumn-veg-buttered-kohlrabi-yuca-fries
 ---
