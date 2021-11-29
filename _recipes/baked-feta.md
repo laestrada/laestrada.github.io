@@ -3,7 +3,7 @@ layout: recipe
 date: 2017-01-05
 title: Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon
 author: NYT Cooking
-type: Other
+type: Mains
 featured_image: https://static01.nyt.com/images/2020/12/20/dining/yf-baked-feta/yf-baked-feta-articleLarge.jpg
 link: https://cooking.nytimes.com/recipes/1021277-sheet-pan-baked-feta-with-broccolini-tomatoes-and-lemon
 ---

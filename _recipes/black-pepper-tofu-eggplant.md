@@ -3,7 +3,7 @@ layout: recipe
 date: 2017-01-05
 title: Black Pepper Tofu and Eggplant
 author: Smitten Kitchen
-type: Asian
+type: Mains
 featured_image: https://i1.wp.com/smittenkitchen.com/wp-content/uploads//2019/08/black-pepper-tofu-and-eggplant-1.jpg?fit=750%2C500&ssl=1
 link: https://smittenkitchen.com/2019/08/black-pepper-tofu-and-eggplant/
 ---

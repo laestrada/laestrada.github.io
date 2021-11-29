@@ -3,7 +3,7 @@ layout: recipe
 date: 2017-01-05
 title: Sheet Pan Meal - Curried Sweet Potato & Chickpeas
 author: Minimalist Baker
-type: Other
+type: Mains
 featured_image: https://minimalistbaker.com/wp-content/uploads/2019/05/Sheet-Pan-Dinner-Curried-Sweet-Potatoes-Crispy-Chickpeas-Cabbage-and-Greens-1-pan-required-simple-ingredients-SO-satisfying-glutenfree-plantbased-dinner-curry-sweetpotato-recipe-minimalistbaker_-9.jpg
 link: https://minimalistbaker.com/sheet-pan-meal-curried-sweet-potato-chickpeas/
 ---

@@ -3,7 +3,7 @@ layout: recipe
 date: 2017-01-05
 title: Spicy Cold Tofu - 5 Minute Recipe
 author: WoksOfLife
-type: Asian
+type: Mains
 featured_image: https://thewoksoflife.com/wp-content/uploads/2014/04/liangban-dofu.jpg
 link: https://thewoksoflife.com/spicy-cold-tofu-liangban-dofu/
 ---
