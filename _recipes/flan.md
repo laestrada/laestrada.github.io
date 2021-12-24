@@ -1,7 +1,7 @@
 ---
 layout: recipe
 date: 2017-01-05
-title: Zeus's Flan
+title: Zeus's Flan Creation
 author: Zeus
 type: Dominican
 featured_image: https://www.cookingclassy.com/wp-content/uploads/2020/09/flan-2.jpg
