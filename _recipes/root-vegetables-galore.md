@@ -7,8 +7,7 @@ type: Mains
 featured_image: https://i.guim.co.uk/img/media/3af7235819c727042396ffdc3e7db67b399f3966/0_0_3731_4384/master/3731.jpg?width=620&quality=45&auto=format&fit=max&dpr=2&s=57da1042c2482f1f0b434b7416121a63
 link: https://www.theguardian.com/food/2020/oct/31/yotam-ottolenghi-recipes-autumn-veg-buttered-kohlrabi-yuca-fries
 ---
-## Details
-### Description
+## Description
 This dish was born out of a fridge clean-out, and is a great way to use up whatever root vegetables you have. Whatever your combination, just keep the total net weight the same. Serve this as a veggie main, along with a simple salad.
 
 * Prep 8-10 min

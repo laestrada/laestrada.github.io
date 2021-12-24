@@ -13,9 +13,6 @@ YIELD: 4 to 6 servings
 
 TIME: 30 minutes
 
-### Description
-Fish tacos, that great meal of the Baja Peninsula, and a taste of summer. They are simple to make, no more complicated in fact than a hamburger or a mess of pancakes, and they are considerably more flavorful. Fried in strips and served onboard warm corn tortillas with a simple salsa, a pinch of fresh cabbage, plenty of lime and a cream sauce you might want to punch up with some chopped chipotle, these fish tacos can turn a cold night into bluebird summer, transporting you from chill into deep humidity and bliss.
-
 ## Ingredients
 
 * 2 medium tomatoes, seeded and finely chopped

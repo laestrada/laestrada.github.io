@@ -7,13 +7,12 @@ type: Mains
 featured_image: https://static01.nyt.com/images/2020/12/20/dining/yf-baked-feta/yf-baked-feta-articleLarge.jpg
 link: https://cooking.nytimes.com/recipes/1021277-sheet-pan-baked-feta-with-broccolini-tomatoes-and-lemon
 ---
-## Details
+## Description
 
 YIELD: 4 to 6 servings
 
 TIME: 25 minutes
 
-### Description
 When baked, feta gains an almost creamy texture, similar to goat cheese but with feta’s characteristic tang. In this easy vegetarian sheet-pan dinner, broccolini (or broccoli), grape tomatoes and lemon slices roast alongside the feta until the broccolini crisp, the tomatoes burst and the lemon rinds soften. (Remember, broccolini has a tender, delicious stalk so only the bottom 1/2-inch needs to be trimmed.) Serve this dish over a pile of orzo for a complete meal. If you like, cut the broccolini, feta and lemon into bite-size pieces and toss with the orzo.
 
 ## Ingredients

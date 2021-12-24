@@ -7,11 +7,10 @@ type: Soups
 featured_image: https://minimalistbaker.com/wp-content/uploads/2018/03/EASY-Pot-Yellow-Chickpea-Cauliflower-Curry-10-ingredients-30-minute-1-pot-curry-vegan-glutenfree-plantbased-minimalistbaker-8.jpg
 link: https://minimalistbaker.com/1-pot-yellow-chickpea-cauliflower-curry/
 ---
-## Details
-### Description
-Easy, 1-pot Vibrant Yellow Curry with cauliflower and chickpeas! A 30-minute hearty and satisfying entrée or side perfect over greens, cauliflower rice, or grains!
-
+## Description
 Servings: 4
+
+Easy, 1-pot Vibrant Yellow Curry with cauliflower and chickpeas! A 30-minute hearty and satisfying entrée or side perfect over greens, cauliflower rice, or grains!
 ## Ingredients
 #### CURRY
 * 2 Tbsp water (or coconut oil)

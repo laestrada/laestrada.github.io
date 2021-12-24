@@ -7,9 +7,9 @@ type: Salads
 featured_image: https://thewoksoflife.com/wp-content/uploads/2015/05/asian-cucumber-salad-5.jpg
 link: https://thewoksoflife.com/smashed-asian-cucumber-salad/
 ---
-## Details
+## Description
 Yield: 4 servings
-### Description
+
 This Smashed Asian cucumber salad recipe is light, refreshing and perfect for the summer, but packed with flavor from a zingy dressing, garlic, and cilantro. It only takes 10 minutes to make!
 
 ## Ingredients

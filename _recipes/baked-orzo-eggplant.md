@@ -7,9 +7,8 @@ type: Other
 featured_image: https://i1.wp.com/smittenkitchen.com/wp-content/uploads//2012/09/baked-orzo-with-eggplant-and-mozz.jpg?fit=750%2C500&ssl=1
 link: https://smittenkitchen.com/2012/09/baked-orzo-with-eggplant-and-mozzarella/
 ---
-## Details
+## Description
 Serves 4
-### Description
 
 I made a couple changes to this recipe due to personal preferences. The original called for a lot of carrots and celery (4 carrots, 3 celery stalks) but I wanted them to just be a background flavor, not main ingredient. I also chopped them more finely. I used a lot less lemon zest and oregano than was suggested because I was nervous but ended up wishing for more of each so I’ve listed the range from my amount to the suggested one below. Finally, the tomatoes were intended to be sliced and then arranged across the top of the dish as it baked. If you’d like to do it this way, sprinkle them with a teaspoon of dried oregano, salt and pepper before you bake it. I chopped them for two reasons: I wanted the tomatoes inside the dish and I also like the crunchy lid of a baked pasta dish. A layer of tomatoes would protect you from that if you’re not into it. (You probably don’t like pudding skin either, do you? It’s okay. We can still be friends.)
 

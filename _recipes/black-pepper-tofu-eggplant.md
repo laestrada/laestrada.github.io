@@ -7,8 +7,7 @@ type: Mains
 featured_image: https://i1.wp.com/smittenkitchen.com/wp-content/uploads//2019/08/black-pepper-tofu-and-eggplant-1.jpg?fit=750%2C500&ssl=1
 link: https://smittenkitchen.com/2019/08/black-pepper-tofu-and-eggplant/
 ---
-## Details
-### Description
+##  Description
 
 Note: You can watch an Instagram Story demo of this recipe over here.
 For high-heat cooking and roasting, I usuaully use safflower (currently this one) or sunflower oil. Shallots vary a lot in size but I used 4 to 5 medium/big ones for 1 1/4 cups shallots. This will be too salty with regular soy sauce. If it’s all you’ve got, use 6 tablespoons plus 2 tablespoons water. Cornstarch-coated tofu likes to stick to roasting pans but I find by preheating the pan, using a thin spatula (this is my go-to), and not moving the tofu until it’s crisp and browned underneath, it’s not a problem.

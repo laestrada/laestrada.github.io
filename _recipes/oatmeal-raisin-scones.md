@@ -13,7 +13,6 @@ YIELD: 12 Small Scones
 
 TIME: 30 Minutes
 
-### Description
 You may be accustomed to the gigantic, sweet scones in coffee shops in this country. They are nothing like the diminutive, light scones that originated in Britain and Ireland. This is a whole-wheat version, only moderately sweet -- the way I think scones should be. You can always top them with jam or honey if you want more sugar. The whole-wheat flour brings a rich, nutty flavor to the scones. 
 
 ## Ingredients

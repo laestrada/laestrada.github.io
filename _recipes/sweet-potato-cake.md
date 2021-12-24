@@ -13,7 +13,6 @@ link: https://shewearsmanyhats.com/southern-sweet-potato-cake-recipe/
 * Cook Time 45 minutes
 * Servings 12
 
-### Description
 A delicious cake for any day or holiday, made with sweet potatoes, cinnamon and ginger. Topped with Honey Cinnamon Buttercream for a perfect combination.
 
 

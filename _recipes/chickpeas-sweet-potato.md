@@ -7,10 +7,7 @@ type: Mains
 featured_image: https://minimalistbaker.com/wp-content/uploads/2019/05/Sheet-Pan-Dinner-Curried-Sweet-Potatoes-Crispy-Chickpeas-Cabbage-and-Greens-1-pan-required-simple-ingredients-SO-satisfying-glutenfree-plantbased-dinner-curry-sweetpotato-recipe-minimalistbaker_-9.jpg
 link: https://minimalistbaker.com/sheet-pan-meal-curried-sweet-potato-chickpeas/
 ---
-## Details
-### Description
-We love when dinner is made entirely on 1 pan! Enjoy this simple sweet potato, chickpea, and cabbage dish seasoned with Indian spices like garam masala! Serve with fresh or steamed greens, tahini, lemon, and sides of choice!
-
+## Description
 PREP TIME: 15 minutes
 
 COOK TIME: 45 minutes
@@ -19,6 +16,7 @@ TOTAL TIME: 1 hour
 
 Servings: 4
 
+Serve with fresh or steamed greens, tahini, lemon, and sides of choice!
 ## Ingredients
 #### VEGGIES + CHICKPEAS
 * 2 large sweet potato, skin on, cut into wedges (organic when possible)

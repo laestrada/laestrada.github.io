@@ -7,15 +7,13 @@ type: Baking
 featured_image: https://static01.nyt.com/images/2018/11/21/dining/kh-brownies/kh-brownies-articleLarge.jpg
 link: https://cooking.nytimes.com/recipes/10782-katharine-hepburns-brownies?action=click&module=RecipeBox&pgType=recipebox-page&region=all&rank=0
 ---
-## Details
+## Description
 
 YIELD: 12 Brownies
 
 TIME: 45 Minutes
 
-### Description
-Much like its author, this recipe is a no-fuss classic. It calls for just 1/4 cup of flour, which yields an incredibly rich and gooey brownie, and it's super easy to make. So easy, in fact, that baking a batch of these might just become part of your weekend routine.
-
+Much like its author, this recipe is a no-fuss classic. It calls for just 1/4 cup of flour, which yields an incredibly rich and gooey brownie, and it's super easy to make. 
 ## Ingredients
 #### FOR THE SCONES:
 

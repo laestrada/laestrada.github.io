@@ -12,7 +12,6 @@ link: https://tasty.co/recipe/easy-peasy-potato-curry
 TIME: 90 Minutes
 YIELD: 12 Empanadas
 
-### Details
 These empanadas can be made with a variety of filling. Our favorites have included impossible beef, curried potatos, and frijoles guisados.
 
 ## Ingredients

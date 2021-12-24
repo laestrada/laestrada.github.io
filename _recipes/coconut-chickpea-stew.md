@@ -7,15 +7,13 @@ type: Soups
 featured_image: https://static01.nyt.com/images/2018/11/28/dining/28Romanrex1/merlin_143092557_a19cb00a-d1f1-4d42-83be-e4ac865d2f96-articleLarge.jpg
 link: https://cooking.nytimes.com/recipes/1019772-spiced-chickpea-stew-with-coconut-and-turmeric
 ---
-## Details
+## Description
 
 YIELD: 4 to 6 servings
 
 TIME: 55 minutes
 
-### Description
-Spiced chickpeas are crisped in olive oil, then simmered in a garlicky coconut milk for an insanely creamy, basically-good-for-you stew that evokes stews found in South India and parts of the Caribbean. While the chickpeas alone would be good as a side dish, they are further simmered with stock, bolstered with dark, leafy greens of your choosing and finished with a handful of fresh mint. When shopping, be sure to avoid low-fat coconut milk, coconut milk meant for drinking or cream of coconut: All are very different and would not be suitable here.
-
+Be sure to use full-fat coconut milk in this recipe.
 ## Ingredients
 * ¼ cup olive oil, plus more for serving
 * 4 garlic cloves, chopped
