@@ -7,8 +7,7 @@ type: Salads
 featured_image: https://static01.nyt.com/images/2013/01/01/science/01recipehealth/01recipehealth-articleLarge-v2.jpg
 link: https://cooking.nytimes.com/recipes/1014451-warm-lentil-salad-with-balsamic-roast-squash
 ---
-## Details
-### Description
+## Description
 YIELD: Serves 4 to 6
 
 TIME: About 2 hours 30 minutes

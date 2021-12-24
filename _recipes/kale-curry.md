@@ -7,8 +7,7 @@ type: Soups
 featured_image: https://minimalistbaker.com/wp-content/uploads/2016/08/Sweet-Potato-Kale-Curry-SQUARE-340x340.jpg
 link: https://minimalistbaker.com/kale-sweet-potato-curry/#wprm-recipe-container-35191
 ---
-## Details
-### Description
+## Description
 A hearty 1-pot curry with kale, sweet potato, and roasted cashews. Red curry is infused with coconut milk for big flavor and creamy texture. 30 minutes.
 
 Prep Time 5 minutes
@@ -19,13 +18,6 @@ Total Time 30 minutes
 
 Servings 4
 
-Course Entree
-
-Cuisine Gluten-Free, Indian-Inspired, Thai-Inspired, Vegan
-
-Freezer Friendly 1 month
-
-Does it keep? 3-4 Days
 
 ## Ingredients
 

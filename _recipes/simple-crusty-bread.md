@@ -7,13 +7,12 @@ type: Baking
 featured_image: https://static01.nyt.com/images/2017/08/08/insider/simple-crusty-bread/simple-crusty-bread-articleLarge.jpg
 link: https://cooking.nytimes.com/recipes/1018203-simple-crusty-bread?action=click&module=Global%20Search%20Recipe%20Card&pgType=search&rank=1
 ---
-## Details
+## Description
 
 YIELD: 4 Loaves
 
 TIME: 45 Minutes, plus 3 hours resting
 
-### Description
 Mix flour, salt, yeast and water. Let it sit a bit, refrigerate it, take some out and let it rise, then bake it. The crusty, full-flavored loaf that results may be the world’s easiest yeast bread.
 
 ## Ingredients

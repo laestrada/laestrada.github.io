@@ -7,20 +7,11 @@ type: Baking
 featured_image: https://www.bakedbyanintrovert.com/wp-content/uploads/2014/11/Cranberry-Orange-Scones-photo.webp
 link: https://www.bakedbyanintrovert.com/cranberry-orange-scones/
 ---
-## Details
+## Description
 
 YIELD: 8 Scones
 
 TIME: 65 Minutes
-
-### Description
-Thanks to the cold butter used, these orange scones are light and airy. The butter releases steam, which creates little pockets of air as it melts in the oven, leading to a fluffy inside while the outside is crisp and flaky.
-
-Then to take these holiday scones up a notch, I topped these scones with a sweet orange glaze that enhances the orange deliciousness throughout.
-
-The coarse sugar added before baking adds a slight crunch to the tops, offering a great contrast in texture with the glaze.
-
-Like my other scone recipes, these are fairly easy to make and a great scone recipe for beginners. Once you make these, you'll be serving them up all winter long!
 
 ## Ingredients
 

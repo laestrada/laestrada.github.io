@@ -9,8 +9,7 @@ link: https://minimalistbaker.com/1-pot-golden-curry-lentil-soup/
 output: true
 ---
 
-## Details
-### Description
+## Description
 1-pot goodness in the form of curried lentil soup! Rich with flavor, fiber, and protein and incredibly comforting. The perfect 30-minute healthy meal or side!
 
 * Prep Time 5 minutes
