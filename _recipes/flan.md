@@ -11,11 +11,6 @@ link:
 This is a favorite dessert of Lucas's dad. It's very creamy, tasty, and rich.
 
 TIME: 90 Minutes
-YIELD: 12 Empanadas
-
-### Details
-These empanadas can be made with a variety of filling. Our favorites have included impossible beef, curried potatos, and frijoles guisados.
-
 ## Ingredients
 ### Flan
 * 1 can sweetened condensed milk
