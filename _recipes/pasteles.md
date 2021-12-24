@@ -4,7 +4,7 @@ date: 2017-01-05
 title: Pasteles
 author: Lucas's Abuela
 type: Dominican
-featured_image: https://static01.nyt.com/images/2017/12/06/dining/06pastelesREX/06pastelesREX-articleLarge.jpg
+featured_image: /images/pasteles.jpg
 link:
 ---
 ## Details
