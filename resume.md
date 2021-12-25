@@ -17,6 +17,18 @@ Dean's List 2019
 Science Department Prize in Environmental Science
 
 ### Relevant Experience
+
+**Scientific Programmer**, GEOS-Chem Support Team, Harvard University\
+Supervised by Dr. Daniel Jacob
+
+* Supporting postdocs and graduate students on research projects requiring technical expertise
+
+* Further developing and improving the capability of running GEOS-Chem and GCHP on the cloud
+ 
+* Developing structural updates to the model’s analysis tools (GCPy) and chemical solver (KPP)
+
+* Providing user support to a vibrant community of users via github issues
+
 **Software Engineer**, Nevo Technologies
 
 * Worked as part of a high velocity agile development team on a wide
