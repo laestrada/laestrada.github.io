@@ -23,7 +23,7 @@ Pasteles are a production to make. Expect to spend half the day making these tas
 
 ### Pouch
 * achiote oil (tomato paste + olive oil simmered)
-* parchment paper
+* parchment paper (12"x18") sheets
 * String (for tying up the pasteles)
 * banana leaf (optional)
 
