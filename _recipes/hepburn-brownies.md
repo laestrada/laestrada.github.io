@@ -3,7 +3,7 @@ layout: recipe
 date: 2017-01-05
 title: Katharine Hepburn’s Brownies
 author: NYT Cooking
-type: Baking
+type: Desserts
 featured_image: https://static01.nyt.com/images/2018/11/21/dining/kh-brownies/kh-brownies-articleLarge.jpg
 link: https://cooking.nytimes.com/recipes/10782-katharine-hepburns-brownies?action=click&module=RecipeBox&pgType=recipebox-page&region=all&rank=0
 ---
