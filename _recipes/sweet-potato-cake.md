@@ -3,7 +3,7 @@ layout: recipe
 date: 2017-01-05
 title: Sweet Potato Cake
 author: She Wears Many Hats
-type: Baking
+type: Desserts
 featured_image: https://i0.wp.com/shewearsmanyhats.com/wp-content/uploads/2015/09/sweet-potato-cake-recipe-1.jpg
 link: https://shewearsmanyhats.com/southern-sweet-potato-cake-recipe/
 ---
