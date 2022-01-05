@@ -25,7 +25,7 @@ A very flexible and delicious recipe, courtesy of Coly's former housemate.
 * 75g flour
 * 2 tsp curry 
 * 50g butter 
-* 25 g sugar
+* 25g sugar
 
 #### FRUIT TOPPING
 * Fruit (e.g. mango)
@@ -37,14 +37,15 @@ A very flexible and delicious recipe, courtesy of Coly's former housemate.
 
 ## Preparation
 #### RICE
-1. Stamp the citron grass with the dull side of a knife (without dissolving it)
-2. Let coconut milk, sugar, and citron grass come to a boil, then add the rice, and let it cook at medium heat with frequent stirring and open pot for around 20 minutes. Let the rice cool down a bit.
-3. Remove the citron grass.
+1. Stamp the lemongrass with the dull side of a knife (without dissolving it)
+2. Let coconut milk, sugar, and lemongrass come to a boil, then add the rice, and let it cook at medium heat with frequent stirring and open pot for around 20 minutes. Let the rice cool down a bit.
+3. Remove the lemongrass.
 
 #### CRUMBLES
 1. Preheat the oven to 400F. 
-2. Crush the nuts, then mix in flour and curry powder.
-3. Spread the mixture on a baking sheet and bake until golden brown.
+2. Crush the nuts. Add flour, curry powder, and sugar.
+3. Mix in butter with your fingers, combining until the mixture has formed clumps.
+3. Spread on a baking sheet and bake until golden brown (about 10 minutes). Stir part-way through.
 
 #### FRUIT TOPPING
 1. Simmer all ingredients together on the stovetop.
