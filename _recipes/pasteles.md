@@ -14,7 +14,7 @@ Pasteles are a production to make. Expect to spend half the day making these tas
 ### Masa
 * Green Bananas 30%
 * Plantains (green) 15% 
-* Calabash Squash (or Kabocha) 30%
+* Squash (or Kabocha) 30%
 * Yuca 15%
 * Potatoes (Yukon Gold) 10%
 
