@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: coding
 title: Coding
 permalink: /coding-tips/
 ---
