@@ -6,5 +6,5 @@ layout: default
 ---
 <div class="flex-container">
   <img class="img-circle-avatar" src="/images/estrada.jpg">
-  <div class="bio">I am a scientific programmer in Harvard's Atmospheric Modeling Research Group in Cambridge, Massachusetts. I am passionate about the outdoors, running, Geoscience, and dogs. My research interests include using technology to better understand earth systems.</div>  
+  <div class="bio">I am a PhD Student in Harvard's Atmospheric Modeling Research Group. I am passionate about the outdoors, running, and dogs. My research interests include using technology to better understand earth systems. My current focus is creating open-source, user-friendly software to improve emission estimates of Methane using inverse methods.</div>  
 </div>
