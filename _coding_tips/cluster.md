@@ -1,11 +1,8 @@
 ---
 layout: page
-title: Coding
-permalink: /coding-tips/
+title: Tips for the cluster
+permalink: /coding-tips/cluster/
 ---
-
-# Helpful Commands
-I use this page as a repository of helpful commands and coding tips that I want to keep handy.
 
 ## Tips for the cluster
 
