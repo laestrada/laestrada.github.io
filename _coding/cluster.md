@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: default
 title: Tips for the cluster
-permalink: /coding-tips/cluster/
+# permalink: /coding-tips/cluster/
 ---
 
 ## Tips for the cluster
