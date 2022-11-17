@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Conda Tips
 permalink: /coding-tips/conda/
 ---
