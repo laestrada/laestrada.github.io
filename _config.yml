@@ -29,6 +29,8 @@ github_username:  jekyll
 collections:
   recipes:
     output: true
+  coding_tips:
+    output: true
 
 # Build settings
 theme: minima
