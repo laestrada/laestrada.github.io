@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Conda Tips
-permalink: /coding-tips/conda/
+# permalink: /coding-tips/conda/
 ---
 # Conda
 ## Generally useful commands
