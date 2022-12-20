@@ -9,10 +9,9 @@ link: Love Real Food
 ---
 
 ## Details
-* Makes 10 large cookies
+Breakfast cookies! A tasty and substantial breakfast, especially with yogurt.
 
-Breakfast cookies! Tasty and substantial breakfast, especially with a bit less sweetener than suggested.
-
+Makes 10 large cookies.
 
 ## Ingredients
 
@@ -33,7 +32,7 @@ Breakfast cookies! Tasty and substantial breakfast, especially with a bit less s
 
 1. Preheat oven to 375-degrees F. Line a large rimmed baking sheet with parchment paper.
 
-2. In a large bowl, combine oats, flour, baking powder, salt, cinnamon, and ginger. Whisk to blend. Add the carrots, raisins, and nuts and stir to combine
+2. In a large bowl, combine oats, flour, baking powder, salt, cinnamon, and ginger. Whisk to blend. Add the carrots, raisins, and nuts and stir to combine.
 
 3. In a medium bowl, combine the honey and coconut oil. Whisk until blended. Pour the liquid mixture into the flour mixture and stir until just combined. The dough will be rather wet.
 
