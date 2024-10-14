@@ -7,8 +7,10 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ## Local Environment
 ### Installing the prereqs
+1. install rbenv: `brew install rbenv && rbenv init` to manage ruby versions
+1. install ruby: `rbenv install 3.0.2`
 1. Follow the instuctions found [here](https://jekyllrb.com/docs/)
-2. Run `bundle install` to ensure all dependencies are loaded
+1. Run `bundle install` to ensure all dependencies are loaded
 ### Running locally
 To serve the site to localhost:4000/ run the following
 `> bundle exec jekyll serve`
