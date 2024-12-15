@@ -8,15 +8,33 @@ permalink: /cv/
 <a href="/pdfs/Public_Resume.pdf">PDF Version</a>
 </div>
 ### Education
+
+**Harvard University**\
+*PhD candidate in Environmental Science and Engineering*\
+Secondary degree in Data Science\
+
 **Williams College**\
 *Bachelor of Arts in Geoscience and Computer Science*\
 Varsity Cross Country and Track\
 Dean's List 2019
 
-**Middlesex School**\
-Science Department Prize in Environmental Science
-
 ### Relevant Experience
+
+**Technical Lead**, [Integral Earth](https://integralearth.github.io/)
+
+* Development of web application for monitoring and quantifying methane emissions from satellite data using advanced research-grade algorithms
+
+* Managed small team of developers
+
+* Designed and developed cloud architecture for the application
+
+
+**PhD Candidate**, Harvard Atmospheric Chemistry Modeling Group, Harvard University\
+Advised by Dr. Daniel Jacob
+
+* Developing open-source, user-friendly software to quantify and monitor methane emissions through a combination of satellite data and inverse modeling techniques
+
+* Applying novel data assimilation techniques to estimate methane emissions from satellite data
 
 **Scientific Programmer**, GEOS-Chem Support Team, Harvard University\
 Supervised by Dr. Daniel Jacob
