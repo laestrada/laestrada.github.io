@@ -4,13 +4,13 @@ date: 2017-01-05
 title: Pollo de Lupe
 author: Lupe
 type: Dominican
-featured_image: /images/gandules.jpg
+featured_image: /images/default.jpg
 link:
 ---
 
 # Description
 
-This recipe was taught to us by a Dominican woman named Lupe when our family went back to the DR. It's a very tasty variation from our family recipe for pollo guisado that results in a sweeter tasting chicken.
+This recipe was taught to us by a Dominican woman named Lupe in the Dominican Republic. It's a very tasty variation from our family recipe for pollo guisado that results in a sweeter tasting chicken.
 
 ## Ingredients
 
