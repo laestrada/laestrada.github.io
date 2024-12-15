@@ -3,7 +3,7 @@ layout: recipe
 date: 2017-01-05
 title: Empanadas
 author: Tasty
-type: Baking
+type: Mains
 featured_image: /images/empanadas.jpg
 link: https://tasty.co/recipe/easy-peasy-potato-curry
 ---
