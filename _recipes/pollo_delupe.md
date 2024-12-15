@@ -4,7 +4,7 @@ date: 2017-01-05
 title: Pollo de Lupe
 author: Lupe
 type: Dominican
-featured_image: /images/default.jpg
+featured_image: /images/gandules.jpg
 link:
 ---
 
