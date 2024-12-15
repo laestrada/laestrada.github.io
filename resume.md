@@ -11,7 +11,7 @@ permalink: /cv/
 
 **Harvard University**\
 *PhD candidate in Environmental Science and Engineering*\
-Secondary degree in Data Science\
+Secondary degree in Data Science
 
 **Williams College**\
 *Bachelor of Arts in Geoscience and Computer Science*\
@@ -20,21 +20,12 @@ Dean's List 2019
 
 ### Relevant Experience
 
-**Technical Lead**, [Integral Earth](https://integralearth.github.io/)
-
-* Development of web application for monitoring and quantifying methane emissions from satellite data using advanced research-grade algorithms
-
-* Managed small team of developers
-
-* Designed and developed cloud architecture for the application
-
-
 **PhD Candidate**, Harvard Atmospheric Chemistry Modeling Group, Harvard University\
 Advised by Dr. Daniel Jacob
 
 * Developing open-source, user-friendly software to quantify and monitor methane emissions through a combination of satellite data and inverse modeling techniques
 
-* Applying novel data assimilation techniques to estimate methane emissions from satellite data
+* Applying novel data assimilation techniques to estimate US methane emissions from satellite data
 
 **Scientific Programmer**, GEOS-Chem Support Team, Harvard University\
 Supervised by Dr. Daniel Jacob
@@ -130,7 +121,10 @@ Review and grade student labs
 
 Organize team events, promote positive culture, communicate with coaches
 
-### Projects and Research
+### Projects
+
+**Integrated Methane Inversion (IMI)**\
+The Integrated Methane Inversion (IMI) is a user-friendly research-grade cloud-computing tool for estimating total methane emissions for any domain and period of interest by analytical inversion of satellite observations from the TROPOspheric Monitoring Instrument (TROPOMI). It enables researchers and stakeholders to infer methane emissions at up to 0.25° × 0.3125° (≈ 25 × 25 km²) spatial resolution and up to weekly temporal resolution from TROPOMI satellite data resident on the Amazon Web Services (AWS) cloud, without requiring expert knowledge of inverse methods or cumbersome data download. See the [IMI website](https://imi.seas.harvard.edu/) for more information. I am the lead developer on this project.
 
 **Acushnet Artworks**\
 Worked as part of a small development team to implement a logo
@@ -167,12 +161,3 @@ the Paleobio Database API's
 
 **Roguelike Game Development**\
 Implemented and developed JavaScript rogue-like video game
-
-*Characterizing Sea Ice Modulations of Seismic Noise using the Alaskan
-Transportable Array*\
-Publication in Submission;
-<https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/507588>
-
-*Mercury and Microfossil Trends During End-Devonian Extinction Events*\
-Publication pending;
-<https://www.researchgate.net/scientific-contributions/Lucas-Estrada-2150491930>
