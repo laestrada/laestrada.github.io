@@ -4,7 +4,7 @@ date: 2017-01-05
 title: Abuela's Mashed Potatoes
 author: Lucas's Abuela
 type: Dominican
-featured_image: /images/default.jpg
+featured_image: /images/default.png
 link:
 ---
 ## Ingredients
