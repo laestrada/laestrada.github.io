@@ -13,8 +13,8 @@
 
 // Years + paths
 const YEARS = [2019, 2020, 2021, 2022, 2023, 2024];
-const CSV_PATH = (year) => `data/states/estrada_states_${year}.csv`;
-const NATIONAL_CSV_PATH = "data/states/national_emissions.csv";
+const CSV_PATH = (year) => `data/csv/estrada_states_${year}.csv`;
+const NATIONAL_CSV_PATH = "data/csv/national_emissions.csv";
 
 // GeoJSON
 const STATES_GEOJSON_PATH = "data/ne/us_states_simplified.geojson";
