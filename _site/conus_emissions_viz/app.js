@@ -8,19 +8,16 @@
    - Charts (bar + timeseries) with uncertainty
    - Export currently displayed chart data as CSV
    ========================================================= */
-   
-   /* ===================== CONFIG ===================== */
-   
-const DATA_BASE = "http://conus-emissions-test-bucket.s3-website-us-east-1.amazonaws.com/data"; 
-// or later: https://dxxxxxxxx.cloudfront.net/conus-emissions
+
+/* ===================== CONFIG ===================== */
 
 // Years + paths
 const YEARS = [2019, 2020, 2021, 2022, 2023, 2024];
-const CSV_PATH = (year) => `${DATA_BASE}/states/estrada_states_${year}.csv`;
-const NATIONAL_CSV_PATH = `${DATA_BASE}/states/national_emissions.csv`;
+const CSV_PATH = (year) => `data/states/estrada_states_${year}.csv`;
+const NATIONAL_CSV_PATH = "data/states/national_emissions.csv";
 
 // GeoJSON
-const STATES_GEOJSON_PATH = `${DATA_BASE}/ne/us_states_simplified.geojson`;
+const STATES_GEOJSON_PATH = "data/ne/us_states_simplified.geojson";
 
 // State choropleth (subtle, mostly for click targets)
 const MAP_VALUE_COL = "Total_posterior";
@@ -51,8 +48,7 @@ const SECTOR_LABELS = {
 };
 
 // Grid overlay
-
-const GRID_MANIFEST_PATH = `${DATA_BASE}/manifest.json`;
+const GRID_MANIFEST_PATH = "data/manifest.json";
 const GRID_VAR_BY_SECTOR = {
   Total_ExclSoilAbs: "EmisCH4_Total",
   Landfills: "EmisCH4_Landfills",
