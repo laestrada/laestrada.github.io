@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>U.S. Methane Emissions Explorer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:,">
+</head>
+
+<body>
+  <div class="layout">
+    <div id="map"></div>
+
+    <aside class="panel">
+      <h2 class="title">U.S. Methane Emissions</h2>
+      <div class="hint">Emissions are derived from the U.S. GHGI and TROPOMI satellite observations. See Estrada et al. (2026) for details. </div>
+
+      <!-- SECTION: What am I looking at? -->
+      <div class="section">
+        <h3>Chart View</h3>
+        <div class="inline">
+          <!-- Chart mode pill -->
+          <div class="pill-group" role="group" aria-label="Chart mode">
+            <label>Data selection</label>
+            <label class="pill-option">
+              <input type="radio" name="chartMode" value="state" checked>
+              State
+            </label>
+            <label class="pill-option">
+              <input type="radio" name="chartMode" value="national">
+              National
+            </label>
+          </div>
+
+          <!-- Units pill -->
+          <div class="pill-group">
+            <label for="unitSelect">Units</label>
+            <div class="pill-select-wrapper">
+              <select id="unitSelect" class="pill-select">
+                <option value="Tg">Tg/yr</option>
+                <option value="Gg">Gg/yr</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="hint" style="margin:10px 0 0;">
+          <strong>Selected:</strong> <span id="selectedState">(none)</span>
+        </div>
+      </div>
+
+      <!-- SECTION: Filters -->
+      <div class="section">
+        <h3>Filters</h3>
+        <div class="grid">
+          <div class="field">
+            <label for="yearSelect">Year</label>
+            <select id="yearSelect"></select>
+          </div>
+
+          <div class="field">
+            <label for="sectorSelect">Sector</label>
+            <select id="sectorSelect"></select>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION: Map overlay -->
+      <div class="section">
+        <h3>Map overlay</h3>
+
+        <div class="toggle">
+          <label for="gridToggle">Show emissions layer</label>
+          <input type="checkbox" id="gridToggle" checked />
+        </div>
+
+        <div class="field" style="margin-top:10px;">
+          <label for="gridMaxSlider">Colorbar max</label>
+          <div class="sliderRow">
+            <input id="gridMaxSlider" type="range" min="0" max="1000" step="1" value="1000" />
+            <span id="gridMaxValue" class="sliderValue"></span>
+          </div>
+          <div class="hint" style="margin:8px 0 0;">
+            Adjust the maximum to change the color scaling of the map overlay.
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION: Charts -->
+      <div class="section">
+        <h3>Charts</h3>
+
+        <div class="chartActions">
+          <button id="downloadBarCsv">Download bar CSV</button>
+          <button id="downloadLineCsv">Download timeseries CSV</button>
+        </div>
+
+        <div class="chartTitle">Sector breakdown (posterior)</div>
+        <canvas id="barChart" height="160"></canvas>
+
+        <div style="height:12px;"></div>
+
+        <div class="chartTitle">Timeseries (posterior)</div>
+        <canvas id="lineChart" height="160"></canvas>
+      </div>
+    </aside>
+  </div>
+
+  <!-- libs -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+  <script src="https://unpkg.com/georaster@1.6.0/dist/georaster.browser.bundle.js"></script>
+  <script
+    src="https://unpkg.com/georaster-layer-for-leaflet@3.10.0/georaster-layer-for-leaflet.browserify.min.js"></script>
+  <script src="https://unpkg.com/chroma-js@2.4.2/chroma.min.js"></script>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
