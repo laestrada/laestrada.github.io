@@ -6,6 +6,10 @@ permalink: /research/
 
 Check out my [google scholar profile](https://scholar.google.com/citations?user=bGCANyQAAAAJ&hl=en) for up to date information on my publications.
 
+<a href="https://laestrada.github.io/conus_emissions_viz/" target="_blank" class="button">CONUS Viz Dashboard</a>
+
+## Selected Publications
+
 **Estrada, L. A.**, Varon, D. J., Sulprizio, M., Nesser, H., Chen, Z., Balasus, N., Hancock, S. E., He, M., East, J. D., Mooring, T. A., Oort Alonso, A., Maasakkers, J. D., Aben, I., Baray, S., Bowman, K. W., Worden, J. R., Cardoso-Saldaña, F. J., Reidy, E., and Jacob, D. J.: Integrated Methane Inversion (IMI) 2.0: an improved research and stakeholder tool for monitoring total methane emissions with high resolution worldwide using TROPOMI satellite observations, Geoscientific Model Development, 18, 3311–3330, [https://doi.org/10.5194/gmd-18-3311-2025](https://doi.org/10.5194/gmd-18-3311-2025), 2025.
 
 Hancock, S. E., Jacob, D., Chen, Z., Nesser, H., Davitt, A., Varon, D. J., Sulprizio, M. P., Balasus, N., **Estrada, L. A.**, East, J. D., Penn, E., Randles, C. A., Worden, J., Aben, I., Parker, R. J., and Maasakkers, J. D.: Satellite quantification of methane emissions from South American countries: A high-resolution inversion of TROPOMI and GOSAT observations, EGUsphere [preprint], [https://doi.org/10.5194/egusphere-2024-1763](https://doi.org/10.5194/egusphere-2024-1763), 2024.
