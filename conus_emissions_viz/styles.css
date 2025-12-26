@@ -6,6 +6,13 @@ body {
   color: #111;
 }
 
+/* Prevent padding/borders from causing overflow on small screens */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .layout {
   display: grid;
   grid-template-columns: 1.15fr 0.85fr;
@@ -85,6 +92,8 @@ select {
   border: 1px solid #dcdcdc;
   border-radius: 10px;
   background: white;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .inline {
@@ -114,6 +123,7 @@ select {
   border: 1px solid #e5e5e5;
   background: #fff;
   font-size: 13px;
+  max-width: 100%;
 }
 
 .pill-group label {
@@ -142,6 +152,8 @@ select {
   font-weight: 600;
   padding: 2px 16px 2px 4px;
   cursor: pointer;
+  min-width: 0;
+  max-width: 100%;
 }
 
 /* small caret */
@@ -255,4 +267,93 @@ a {
 .legend .title {
   font-weight: 650;
   margin-bottom: 2px;
+}
+
+/* ===================== Mobile layout ===================== */
+
+@media (max-width: 900px) {
+  /* Stack: map on top, panel below */
+  .layout {
+    grid-template-columns: 1fr;
+    grid-template-rows: 55vh auto;
+    height: 100vh;
+  }
+
+  /* Leaflet must have an explicit height */
+  #map {
+    height: 55vh;
+    min-height: 320px;
+  }
+
+  /* Let the page scroll naturally on mobile */
+  .panel {
+    border-left: none;
+    border-top: 1px solid #e5e5e5;
+    overflow: visible;
+  }
+
+  /* Filters grid becomes one column */
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Chart view controls: stack pill groups vertically */
+  .inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  /* Make pill groups behave on narrow screens (avoid overflow) */
+  .pill-group {
+    width: 100%;
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 10px 12px;
+    border-radius: 12px;
+  }
+
+  /* Put the pill-group label on its own row */
+  .pill-group > label {
+    flex: 0 0 100%;
+    margin: 0;
+  }
+
+  /* Keep radio options readable without forcing overflow */
+  .pill-option {
+    flex: 0 0 auto;
+    white-space: nowrap;
+  }
+
+  /* Let the select shrink/grow inside the pill group */
+  .pill-select-wrapper {
+    flex: 1 1 160px;
+    min-width: 0;
+  }
+
+  .pill-select {
+    width: 100%;
+    min-width: 0;
+  }
+
+  /* Bigger touch targets + prevent iOS zoom on focus */
+  select,
+  button {
+    font-size: 16px;
+  }
+
+  /* Make buttons span nicely */
+  .chartActions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .chartActions button {
+    width: 100%;
+  }
+
+  /* Leaflet legend: keep it from overflowing tiny screens */
+  .legend .bar {
+    width: 160px;
+  }
 }

@@ -17,7 +17,8 @@
 
     <aside class="panel">
       <h2 class="title">U.S. Methane Emissions</h2>
-      <div class="hint">Emissions are derived from the U.S. GHGI and TROPOMI satellite observations. See Estrada et al. (2026) for details. </div>
+      <div class="hint">Emissions are derived from the U.S. GHGI and TROPOMI satellite observations. See Estrada et al.
+        (2026) for details. </div>
 
       <!-- SECTION: What am I looking at? -->
       <div class="section">
@@ -36,6 +37,17 @@
             </label>
           </div>
 
+          <!-- Data source pill -->
+          <div class="pill-group">
+            <label for="dataSourceSelect">Data source</label>
+            <div class="pill-select-wrapper">
+              <select id="dataSourceSelect" class="pill-select">
+                <option value="ghgi_tropomi">GHGI+TROPOMI</option>
+                <option value="ghgi">GHGI</option>
+              </select>
+            </div>
+          </div>
+
           <!-- Units pill -->
           <div class="pill-group">
             <label for="unitSelect">Units</label>
@@ -50,6 +62,7 @@
         <div class="hint" style="margin:10px 0 0;">
           <strong>Selected:</strong> <span id="selectedState">(none)</span>
         </div>
+        <div class="hint" id="dataHint" style="margin:10px 0 0;"></div>
       </div>
 
       <!-- SECTION: Filters -->
@@ -98,12 +111,12 @@
           <button id="downloadLineCsv">Download timeseries CSV</button>
         </div>
 
-        <div class="chartTitle">Sector breakdown (posterior)</div>
+        <div class="chartTitle" id="barChartTitle">Sector breakdown</div>
         <canvas id="barChart" height="160"></canvas>
 
         <div style="height:12px;"></div>
 
-        <div class="chartTitle">Timeseries (posterior)</div>
+        <div class="chartTitle" id="lineChartTitle">Timeseries</div>
         <canvas id="lineChart" height="160"></canvas>
       </div>
     </aside>

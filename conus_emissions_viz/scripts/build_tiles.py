@@ -59,9 +59,11 @@ manifest = {
     "data": {},  # data[var][year] = {tif,nc,min,max}
 }
 
-for nc_path in sorted(IN_DIR.glob("posterior*.nc")):
+for nc_path in sorted(IN_DIR.glob("*.nc")):
     year = infer_year(nc_path)
     print(f"\nProcessing {nc_path.name} for year {year}...\n")
+    
+    prior = "prior" in nc_path.name.lower()
     if year not in manifest["years"]:
         manifest["years"].append(year)
 
@@ -104,7 +106,10 @@ for nc_path in sorted(IN_DIR.glob("posterior*.nc")):
             arr = arr.copy()
             arr[out_mask] = np.nan
 
-        tif_name = f"{var}_{year}.tif"
+        if prior:
+            tif_name = f"{var}_{year}_prior.tif"
+        else:
+            tif_name = f"{var}_{year}.tif"
         OUT_DIR_tif = OUT_DIR / "tif"
         OUT_DIR_tif.mkdir(parents=True, exist_ok=True)
         tif_path = OUT_DIR_tif / tif_name
@@ -138,12 +143,20 @@ for nc_path in sorted(IN_DIR.glob("posterior*.nc")):
             vmax = 0.0
 
         manifest["data"].setdefault(var, {})
-        manifest["data"][var][year] = {
-            "tif": f"data/tif/{tif_name}",
-            "nc": f"data/nc/{nc_path.name}",
-            "min": vmin,
-            "max": vmax,
-        }
+        if prior:
+            manifest["data"][var][f"{year}_prior"] = {
+                "tif": f"data/tif/{tif_name}",
+                "nc": f"data/nc/{nc_path.name}",
+                "min": vmin,
+                "max": vmax,
+            }
+        else:
+            manifest["data"][var][year] = {
+                "tif": f"data/tif/{tif_name}",
+                "nc": f"data/nc/{nc_path.name}",
+                "min": vmin,
+                "max": vmax,
+            }
 
         print(f"Wrote {tif_path}")
 
