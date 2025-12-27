@@ -66,7 +66,7 @@ const GRID_VAR_BY_SECTOR = {
 
 const GRID_UNITS_HTML = "kg km<sup>-2</sup> h<sup>-1</sup>";
 const GRID_COLORMAP = "ylorrd";
-const GRID_OPACITY = 0.60;
+const GRID_OPACITY = 0.40;
 const GRID_RESOLUTION = 256;
 
 /* ===================== APP STATE ===================== */
