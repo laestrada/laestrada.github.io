@@ -90,6 +90,7 @@ const state = {
   statesLayer: null,
 
   // grid overlay
+  colorbarRefEntry: null,
   gridManifest: null,
   gridLayer: null,
   gridOpacity: GRID_OPACITY,
@@ -378,6 +379,11 @@ function gridVarForSector(sectorKey) {
   return GRID_VAR_BY_SECTOR[sectorKey] ?? "EmisCH4_Total";
 }
 
+function getColorbarReferenceEntry(gridVar, year) {
+  // Always use GHGI+TROPOMI entry (no "_prior") for colorbar min/max domain
+  return state.gridManifest?.data?.[gridVar]?.[String(year)] ?? null;
+}
+
 async function ensureGridManifestLoaded() {
   if (state.gridManifest) return;
   state.gridManifest = await (await fetch(GRID_MANIFEST_PATH)).json();
@@ -420,20 +426,23 @@ function clearGrid() {
 }
 
 function getEffectiveGridMax() {
-  const entry = state.currentGridEntry;
-  if (!entry) return null;
-  const maxRaw = Number(entry.max ?? 1);
+  const refEntry = state.colorbarRefEntry ?? state.currentGridEntry;
+  if (!refEntry) return null;
+
+  const maxRaw = Number(refEntry.max ?? 1);
   return (state.gridDisplayMax != null) ? Number(state.gridDisplayMax) : maxRaw;
 }
 
 function syncGridSliderToEntry() {
-  const entry = state.currentGridEntry;
+  const displayEntry = state.currentGridEntry;      // what you're drawing
+  const refEntry = state.colorbarRefEntry;          // what defines slider domain
   const slider = state.el.gridMaxSlider;
   const out = state.el.gridMaxValue;
-  if (!slider || !out || !entry) return;
 
-  const dataMin = Number(entry.min);
-  const dataMax = Number(entry.max);
+  if (!slider || !out || !displayEntry || !refEntry) return;
+
+  const dataMin = Number(refEntry.min);
+  const dataMax = Number(refEntry.max);
 
   if (!Number.isFinite(dataMin) || !Number.isFinite(dataMax) || dataMax <= dataMin) {
     slider.disabled = true;
@@ -443,9 +452,12 @@ function syncGridSliderToEntry() {
 
   slider.disabled = false;
 
+  // IMPORTANT: do NOT reset user's chosen max; only init if null
   if (state.gridDisplayMax == null) state.gridDisplayMax = dataMax;
 
+  // Clamp within posterior domain
   state.gridDisplayMax = Math.max(dataMin, Math.min(dataMax, state.gridDisplayMax));
+
   state.gridMaxT = (state.gridDisplayMax - dataMin) / (dataMax - dataMin);
   state.gridMaxT = Math.max(0, Math.min(1, state.gridMaxT));
 
@@ -462,7 +474,7 @@ function updateGridLegend() {
     return;
   }
 
-  const min = Number(state.currentGridEntry.min ?? 0);
+  const min = Number((state.colorbarRefEntry ?? state.currentGridEntry).min ?? 0);
   const max = getEffectiveGridMax();
 
   const steps = 40;
@@ -513,11 +525,8 @@ async function setGridLayerForSelection() {
   state.currentGridEntry = entry;
   state.currentGridVar = gridVar;
 
-  if (state.gridLayer) {
-    state.map.removeLayer(state.gridLayer);
-    state.gridLayer = null;
-    state.gridGeoraster = null;
-  }
+  // NEW: store a reference entry for colorbar scaling (always posterior)
+  state.colorbarRefEntry = getColorbarReferenceEntry(gridVar, year) || entry;
 
   const resp = await fetch(entry.tif);
   const arrayBuffer = await resp.arrayBuffer();
@@ -532,7 +541,7 @@ async function setGridLayerForSelection() {
       const v = vals?.[0];
       if (v == null || Number.isNaN(v)) return null;
 
-      const min = Number(state.currentGridEntry?.min ?? 0);
+      const min = Number((state.colorbarRefEntry ?? state.currentGridEntry)?.min ?? 0);
       const max = getEffectiveGridMax();
       const denom = (max - min) || 1;
 
@@ -870,7 +879,6 @@ function wireEvents() {
     updateCharts();
 
     // Refresh grid to prior/posterior tif (and reset scaling)
-    state.gridDisplayMax = null;
     await setGridLayerForSelection();
   });
 
