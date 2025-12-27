@@ -92,6 +92,7 @@ const state = {
   // grid overlay
   gridManifest: null,
   gridLayer: null,
+  gridOpacity: GRID_OPACITY,
   currentGridEntry: null,
   currentGridVar: null,
   gridLegendControl: null,
@@ -382,6 +383,32 @@ async function ensureGridManifestLoaded() {
   state.gridManifest = await (await fetch(GRID_MANIFEST_PATH)).json();
 }
 
+function getGridOpacity() {
+  const el = state.el.gridOpacitySlider;
+  if (!el) return GRID_OPACITY;
+  const v = Number(el.value);
+  return Number.isFinite(v) ? Math.max(0, Math.min(1, v / 100)) : GRID_OPACITY;
+}
+
+function syncGridOpacityUI() {
+  const el = state.el.gridOpacitySlider;
+  const out = state.el.gridOpacityValue;
+  if (!el || !out) return;
+  out.textContent = `${Math.round(getGridOpacity() * 100)}%`;
+}
+
+function applyGridOpacity() {
+  state.gridOpacity = getGridOpacity();
+  syncGridOpacityUI();
+  if (state.gridLayer && typeof state.gridLayer.setOpacity === "function") {
+    state.gridLayer.setOpacity(state.gridOpacity);
+  } else if (state.gridLayer?.options) {
+    // fallback for implementations without setOpacity
+    state.gridLayer.options.opacity = state.gridOpacity;
+    state.gridLayer.redraw?.();
+  }
+}
+
 function clearGrid() {
   if (state.gridLayer) state.map.removeLayer(state.gridLayer);
   state.gridLayer = null;
@@ -463,8 +490,6 @@ function updateGridLegend() {
 }
 
 async function setGridLayerForSelection() {
-  const toggle = state.el.gridToggle;
-  if (!toggle?.checked) return;
 
   await ensureGridManifestLoaded();
 
@@ -501,7 +526,7 @@ async function setGridLayerForSelection() {
 
   state.gridLayer = new GeoRasterLayer({
     georaster,
-    opacity: GRID_OPACITY,
+    opacity: getGridOpacity(),
     resolution: GRID_RESOLUTION,
     pixelValuesToColorFn: (vals) => {
       const v = vals?.[0];
@@ -894,9 +919,8 @@ function wireEvents() {
   });
 
   // Grid toggle + slider
-  state.el.gridToggle.addEventListener("change", async () => {
-    if (state.el.gridToggle.checked) await setGridLayerForSelection();
-    else clearGrid();
+  state.el.gridOpacitySlider?.addEventListener("input", () => {
+    applyGridOpacity();
   });
 
   state.el.gridMaxSlider.addEventListener("input", handleGridSliderInput);
@@ -957,7 +981,8 @@ async function main() {
     sectorSelect: $("sectorSelect"),
     unitSelect: $("unitSelect"),
     dataSourceSelect: $("dataSourceSelect"),
-    gridToggle: $("gridToggle"),
+    gridOpacitySlider: $("gridOpacitySlider"),
+    gridOpacityValue: $("gridOpacityValue"),
     gridMaxSlider: $("gridMaxSlider"),
     gridMaxValue: $("gridMaxValue"),
     selectedState: $("selectedState"),
@@ -991,8 +1016,9 @@ async function main() {
   recolorStates();
   updateCharts();
 
-  if (state.el.gridToggle.checked) await setGridLayerForSelection();
-  else clearGrid();
+  syncGridOpacityUI();
+  await setGridLayerForSelection();
+  applyGridOpacity();
 
   wireEvents();
 }
