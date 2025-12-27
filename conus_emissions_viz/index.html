@@ -85,9 +85,15 @@
       <div class="section">
         <h3>Map overlay</h3>
 
-        <div class="toggle">
-          <label for="gridToggle">Show emissions layer</label>
-          <input type="checkbox" id="gridToggle" checked />
+        <div class="field">
+          <label for="gridOpacitySlider">Emissions opacity</label>
+          <div class="sliderRow">
+            <input id="gridOpacitySlider" type="range" min="0" max="100" step="1" value="40" />
+            <span id="gridOpacityValue" class="sliderValue">40%</span>
+          </div>
+          <div class="hint" style="margin:8px 0 0;">
+            Adjust transparency of the emissions overlay.
+          </div>
         </div>
 
         <div class="field" style="margin-top:10px;">
