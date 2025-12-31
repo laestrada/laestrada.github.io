@@ -93,6 +93,7 @@ const state = {
   colorbarRefEntry: null,
   gridManifest: null,
   gridLayer: null,
+  gridVarDomainCache: {}, // gridVar -> { min, max }
   gridOpacity: GRID_OPACITY,
   currentGridEntry: null,
   currentGridVar: null,
@@ -375,6 +376,33 @@ function showStatesOverlay() {
 
 /* ===================== GRID OVERLAY ===================== */
 
+function getGlobalDomainForGridVar(gridVar) {
+  // Cache so we don't rescan every time
+  if (state.gridVarDomainCache?.[gridVar]) return state.gridVarDomainCache[gridVar];
+
+  const entries = state.gridManifest?.data?.[gridVar];
+  if (!entries) return null;
+
+  let gMin = Infinity;
+  let gMax = -Infinity;
+
+  for (const key of Object.keys(entries)) {
+    const e = entries[key];
+    if (!e) continue;
+
+    const mn = Number(e.min);
+    const mx = Number(e.max);
+    if (Number.isFinite(mn)) gMin = Math.min(gMin, mn);
+    if (Number.isFinite(mx)) gMax = Math.max(gMax, mx);
+  }
+
+  if (!Number.isFinite(gMin) || !Number.isFinite(gMax) || gMax <= gMin) return null;
+
+  const dom = { min: gMin, max: gMax };
+  state.gridVarDomainCache[gridVar] = dom;
+  return dom;
+}
+
 function gridVarForSector(sectorKey) {
   return GRID_VAR_BY_SECTOR[sectorKey] ?? "EmisCH4_Total";
 }
@@ -426,36 +454,35 @@ function clearGrid() {
 }
 
 function getEffectiveGridMax() {
-  const refEntry = state.colorbarRefEntry ?? state.currentGridEntry;
-  if (!refEntry) return null;
+  const dom = state.currentGridVar ? getGlobalDomainForGridVar(state.currentGridVar) : null;
+  if (!dom) return null;
 
-  const maxRaw = Number(refEntry.max ?? 1);
+  const maxRaw = Number(dom.max ?? 1);
   return (state.gridDisplayMax != null) ? Number(state.gridDisplayMax) : maxRaw;
 }
 
 function syncGridSliderToEntry() {
-  const displayEntry = state.currentGridEntry;      // what you're drawing
-  const refEntry = state.colorbarRefEntry;          // what defines slider domain
   const slider = state.el.gridMaxSlider;
   const out = state.el.gridMaxValue;
 
-  if (!slider || !out || !displayEntry || !refEntry) return;
+  if (!slider || !out || !state.currentGridEntry || !state.currentGridVar) return;
 
-  const dataMin = Number(refEntry.min);
-  const dataMax = Number(refEntry.max);
-
-  if (!Number.isFinite(dataMin) || !Number.isFinite(dataMax) || dataMax <= dataMin) {
+  const dom = getGlobalDomainForGridVar(state.currentGridVar);
+  if (!dom) {
     slider.disabled = true;
     out.textContent = "";
     return;
   }
 
+  const dataMin = dom.min;
+  const dataMax = dom.max;
+
   slider.disabled = false;
 
-  // IMPORTANT: do NOT reset user's chosen max; only init if null
+  // Only initialize if user hasn't set it yet
   if (state.gridDisplayMax == null) state.gridDisplayMax = dataMax;
 
-  // Clamp within posterior domain
+  // Clamp within global domain
   state.gridDisplayMax = Math.max(dataMin, Math.min(dataMax, state.gridDisplayMax));
 
   state.gridMaxT = (state.gridDisplayMax - dataMin) / (dataMax - dataMin);
@@ -469,12 +496,18 @@ function updateGridLegend() {
   const ctl = state.gridLegendControl;
   if (!ctl?._container) return;
 
-  if (!state.currentGridEntry) {
+  if (!state.currentGridEntry || !state.currentGridVar) {
     ctl._container.innerHTML = "";
     return;
   }
 
-  const min = Number((state.colorbarRefEntry ?? state.currentGridEntry).min ?? 0);
+  const dom = getGlobalDomainForGridVar(state.currentGridVar);
+  if (!dom) {
+    ctl._container.innerHTML = "";
+    return;
+  }
+
+  const min = dom.min;
   const max = getEffectiveGridMax();
 
   const steps = 40;
@@ -502,7 +535,6 @@ function updateGridLegend() {
 }
 
 async function setGridLayerForSelection() {
-
   await ensureGridManifestLoaded();
 
   const year = Number(state.el.yearSelect.value);
@@ -522,10 +554,17 @@ async function setGridLayerForSelection() {
     return;
   }
 
+  // remove old layer
+  if (state.gridLayer) {
+    state.map.removeLayer(state.gridLayer);
+    state.gridLayer = null;
+    state.gridGeoraster = null;
+  }
+
   state.currentGridEntry = entry;
   state.currentGridVar = gridVar;
 
-  // NEW: store a reference entry for colorbar scaling (always posterior)
+  // reference entry ALWAYS posterior for slider + legend + colormap scaling
   state.colorbarRefEntry = getColorbarReferenceEntry(gridVar, year) || entry;
 
   const resp = await fetch(entry.tif);
@@ -541,7 +580,8 @@ async function setGridLayerForSelection() {
       const v = vals?.[0];
       if (v == null || Number.isNaN(v)) return null;
 
-      const min = Number((state.colorbarRefEntry ?? state.currentGridEntry)?.min ?? 0);
+      const dom = state.currentGridVar ? getGlobalDomainForGridVar(state.currentGridVar) : null;
+      const min = Number(dom?.min ?? 0);
       const max = getEffectiveGridMax();
       const denom = (max - min) || 1;
 
@@ -559,19 +599,20 @@ async function setGridLayerForSelection() {
 }
 
 function handleGridSliderInput() {
-  const entry = state.currentGridEntry;
-  if (!entry) return;
+  if (!state.currentGridVar) return;
 
-  const dataMin = Number(entry.min);
-  const dataMax = Number(entry.max);
-  if (!Number.isFinite(dataMin) || !Number.isFinite(dataMax) || dataMax <= dataMin) return;
+  const dom = getGlobalDomainForGridVar(state.currentGridVar);
+  if (!dom) return;
+
+  const dataMin = dom.min;
+  const dataMax = dom.max;
 
   state.gridMaxT = Number(state.el.gridMaxSlider.value) / 1000;
   state.gridDisplayMax = dataMin + state.gridMaxT * (dataMax - dataMin);
 
   state.el.gridMaxValue.innerHTML = `${fmt(state.gridDisplayMax)} ${GRID_UNITS_HTML}`;
 
-  if (state.gridLayer?.redraw) state.gridLayer.redraw();
+  state.gridLayer?.redraw?.();
   updateGridLegend();
 }
 
@@ -833,6 +874,11 @@ function initSelects() {
   const emisSource = getEmisSource();
   const yrs = activeYears(emisSource);
 
+  // --- preserve current selections ---
+  const prevYear = Number(state.el.yearSelect.value);
+  const prevSector = state.el.sectorSelect.value;
+
+  // --- year options (changes with source) ---
   state.el.yearSelect.innerHTML = "";
   for (const y of yrs) {
     const opt = document.createElement("option");
@@ -840,11 +886,20 @@ function initSelects() {
     opt.textContent = y;
     state.el.yearSelect.appendChild(opt);
   }
-  state.el.yearSelect.value = yrs[yrs.length - 1];
 
+  // keep year if still available; otherwise fallback to latest
+  const yearToUse = yrs.includes(prevYear) ? prevYear : yrs[yrs.length - 1];
+  state.el.yearSelect.value = yearToUse;
+
+  // --- sector options (should NOT depend on source) ---
   const defaultSector =
     state.sectorKeys.includes(DEFAULT_SECTOR) ? DEFAULT_SECTOR : (state.sectorKeys[0] ?? "");
   populateSelect(state.el.sectorSelect, state.sectorKeys, defaultSector);
+
+  // restore sector if possible
+  if (prevSector && state.sectorKeys.includes(prevSector)) {
+    state.el.sectorSelect.value = prevSector;
+  }
 }
 
 function updateDataHint() {
