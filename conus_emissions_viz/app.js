@@ -18,6 +18,11 @@ const PRIOR_YEARS = [2019, 2020];
 const CSV_PATH = (year) => `data/csv/estrada_states_${year}.csv`;
 const NATIONAL_CSV_PATH = "data/csv/national_emissions.csv";
 const NATIONAL_CSV_PATH_PRIOR = "data/csv/national_prior_emissions_2017_2020.csv";
+const NETCDF_PATH = (year, emisSource) =>
+  (emisSource === "ghgi")
+    ? `data/nc/prior_${year}.nc`
+    : `data/nc/posterior_ens_mean_${year}.nc`;
+
 
 // GeoJSON
 const STATES_GEOJSON_PATH = "data/ne/us_states_simplified.geojson";
@@ -207,6 +212,15 @@ function csvEscape(v) {
 
 function toCSV(rows) {
   return rows.map(r => r.map(csvEscape).join(",")).join("\n") + "\n";
+}
+
+function downloadUrl(filename, url) {
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
 }
 
 function downloadText(filename, text, mime = "text/csv;charset=utf-8") {
@@ -981,6 +995,16 @@ function wireEvents() {
     downloadText(filename, toCSV(makeLineCsvRows(mode, sectorKey)));
   });
 
+  state.el.downloadNetcdf?.addEventListener("click", () => {
+    const year = Number(state.el.yearSelect.value);
+    const emisSource = getEmisSource();
+
+    const url = NETCDF_PATH(year, emisSource); // or NETCDF_PATH(year, emisSource)
+    const filename = `emissions_${emisSourceLabel(emisSource)}_${year}.nc`.replace(/\s+/g, "_");
+
+    downloadUrl(filename, url);
+  });
+
   // Grid toggle + slider
   state.el.gridOpacitySlider?.addEventListener("input", () => {
     applyGridOpacity();
@@ -1051,6 +1075,7 @@ async function main() {
     selectedState: $("selectedState"),
     downloadBarCsv: $("downloadBarCsv"),
     downloadLineCsv: $("downloadLineCsv"),
+    downloadNetcdf: $("downloadNetcdf"),
     barChart: $("barChart"),
     lineChart: $("lineChart"),
     barChartTitle: $("barChartTitle"),
