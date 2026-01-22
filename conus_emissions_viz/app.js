@@ -754,7 +754,9 @@ function syncChartTitles() {
   const emisSource = getEmisSource();
   const suffix = emisSourceLabel(emisSource);
 
-  if (state.el.barChartTitle) state.el.barChartTitle.textContent = `Sector breakdown (${suffix})`;
+  if (state.el.barChartTitleText) {
+    state.el.barChartTitleText.textContent = `Sector breakdown (${suffix})`;
+  }
   if (state.el.lineChartTitle) state.el.lineChartTitle.textContent = `Timeseries (${suffix})`;
 
   if (state.barChart?.data?.datasets?.[0]) state.barChart.data.datasets[0].label = suffix;
@@ -1078,7 +1080,7 @@ async function main() {
     downloadNetcdf: $("downloadNetcdf"),
     barChart: $("barChart"),
     lineChart: $("lineChart"),
-    barChartTitle: $("barChartTitle"),
+    barChartTitleText: $("barChartTitleText"),
     lineChartTitle: $("lineChartTitle"),
     dataHint: $("dataHint"),
   };

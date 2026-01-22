@@ -269,6 +269,57 @@ a {
   margin-bottom: 2px;
 }
 
+.info-icon {
+  position: relative;
+  display: inline-block;
+  margin-left: 6px;
+  font-size: 0.9em;
+  color: #666;
+  cursor: pointer;
+}
+
+.info-icon:hover {
+  color: #000;
+}
+
+.info-icon .tooltip {
+  visibility: hidden;
+  opacity: 0;
+  width: 320px;
+  background-color: #222;
+  color: #fff;
+  text-align: left;
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-size: 0.8em;
+  line-height: 1.4;
+
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  z-index: 10;
+  transition: opacity 0.2s ease;
+}
+
+.info-icon .tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -6px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: #222 transparent transparent transparent;
+}
+
+.info-icon:hover .tooltip,
+.info-icon:focus .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
 /* ===================== Mobile layout ===================== */
 
 @media (max-width: 900px) {
