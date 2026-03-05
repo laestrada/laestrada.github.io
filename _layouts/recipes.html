@@ -3,73 +3,80 @@ layout: default
 ---
 
 {{ content }}
-<h3>Soups</h3>
-<ul>
+
+<section class="list-card">
+  <h3>Soups</h3>
+  <ul class="link-list">
     {% for post in site.recipes %}
-        {% if post.type == "Soups" %}
-        <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endif %}
+      {% if post.type == "Soups" %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
     {% endfor %}
-</ul>
-<h3>Comida Dominicana (from family and others)</h3>
-<ul>
+  </ul>
+</section>
+
+<section class="list-card">
+  <h3>Comida Dominicana (from family and others)</h3>
+  <ul class="link-list">
     {% for post in site.recipes %}
-        {% if post.type == "Dominican" %}
-        <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endif %}
+      {% if post.type == "Dominican" %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
     {% endfor %}
-</ul>
-<h3>Mains</h3>
-<ul>
+  </ul>
+</section>
+
+<section class="list-card">
+  <h3>Mains</h3>
+  <ul class="link-list">
     {% for post in site.recipes %}
-        {% if post.type == "Mains" %}
-        <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endif %}
+      {% if post.type == "Mains" %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
     {% endfor %}
-</ul>
-<h3>Sides</h3>
-<ul>
+  </ul>
+</section>
+
+<section class="list-card">
+  <h3>Sides</h3>
+  <ul class="link-list">
     {% for post in site.recipes %}
-        {% if post.type == "Sides" %}
-        <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endif %}
+      {% if post.type == "Sides" %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
     {% endfor %}
-</ul>
-<h3>Salads</h3>
-<ul>
+  </ul>
+</section>
+
+<section class="list-card">
+  <h3>Salads</h3>
+  <ul class="link-list">
     {% for post in site.recipes %}
-        {% if post.type == "Salads" %}
-        <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endif %}
+      {% if post.type == "Salads" %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
     {% endfor %}
-</ul>
-<h3>Baking</h3>
-<ul>
+  </ul>
+</section>
+
+<section class="list-card">
+  <h3>Baking</h3>
+  <ul class="link-list">
     {% for post in site.recipes %}
-        {% if post.type == "Baking" %}
-        <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endif %}
+      {% if post.type == "Baking" %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
     {% endfor %}
-</ul>
-<h3>Desserts</h3>
-<ul>
+  </ul>
+</section>
+
+<section class="list-card">
+  <h3>Desserts</h3>
+  <ul class="link-list">
     {% for post in site.recipes %}
-        {% if post.type == "Desserts" %}
-        <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endif %}
+      {% if post.type == "Desserts" %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
     {% endfor %}
-</ul>
+  </ul>
+</section>

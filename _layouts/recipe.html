@@ -1,12 +1,14 @@
 ---
 layout: default
 ---
-<!-- ### {{ page.title }} -->
-<div class="flex-container">
+
+<article class="recipe-card">
+  <div class="flex-container">
     <img class="img-circle-recipe" src="{{ page.featured_image }}" alt="{{ page.title }}">
-</div>
-<h1 class="flex-title">{{ page.title }}</h1>
-<br>
-{{ content }}
-Originally from
-<a href="{{ page.link }}">{{ page.author }}</a>
+  </div>
+  <h1 class="flex-title">{{ page.title }}</h1>
+  {{ content }}
+  <p>
+    Originally from <a href="{{ page.link }}">{{ page.author }}</a>
+  </p>
+</article>

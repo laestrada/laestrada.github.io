@@ -3,8 +3,7 @@ layout: page
 title: CV
 permalink: /cv/
 ---
-------------------------------------------------------------------------
-<div style="text-align: right;">
+<div class="cv-topbar">
 <a href="/pdfs/Public_Resume.pdf">PDF Version</a>
 </div>
 ### Education
