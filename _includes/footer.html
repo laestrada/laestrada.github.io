@@ -2,33 +2,18 @@
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col">
-        {%- if site.author %}
-        <ul class="contact-list">
-          {% if site.author.name -%}
-          <li class="p-name">{{ site.author.name | escape }}</li>
-          {% endif -%}
-          {% if site.author.email -%}
-          <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-          {%- endif %}
-        </ul>
-        {%- endif %}
-      </div>
-    </div>
     <div class="social-link-wrapper">
       <div class="social-links">
         <ul class="social-media-list">
-          <li><img class="svg-icon" src="/images/email.svg" />
-              <span class="username">laestrada00 [at] gmail [dot] com</span></a></li>
-          <i class="fas fa-envelope"></i>
+          <li>
+            <img class="svg-icon" src="/images/email.svg" alt="Email" />
+            <span class="username">laestrada00 [at] gmail [dot] com</span>
+          </li>
         </ul>
       </div>
       <div class="copywrite">
-        &copy; 2021 Lucas Estrada. Powered by Jekyll & Minima. 
+        &copy; {{ "now" | date: "%Y" }} Lucas Estrada. Powered by Jekyll & Minima.
       </div>
     </div>
   </div>
-
 </footer>
