@@ -13,7 +13,7 @@ Here is a cool dashboard I built to visualize methane emissions across the conti
 
 ## Selected Publications
 
-**Estrada, L. A.**, Jacob, D. J., He, M., East, J. D., Varon, D. J., Balasus, N., Hancock, S. E., Sulprizio, M., Bowman, K. W., Worden, J. R., Reidy, E., and Runkle, B. R. K.: Quantifying national, state, and oil/gas field methane emissions and trends in the U.S. (2019–2024) through high resolution inversion of satellite observations, EGUsphere [preprint], https://doi.org/10.5194/egusphere-2026-655, 2026.
+**Estrada, L. A.**, Jacob, D. J., He, M., East, J. D., Varon, D. J., Balasus, N., Hancock, S. E., Sulprizio, M., Bowman, K. W., Worden, J. R., Reidy, E., and Runkle, B. R. K.: Quantifying national, state, and oil/gas field methane emissions and trends in the U.S. (2019–2024) through high resolution inversion of satellite observations, EGUsphere [preprint], [https://doi.org/10.5194/egusphere-2026-655](https://doi.org/10.5194/egusphere-2026-655), 2026.
 
 **Estrada, L. A.**, Varon, D. J., Sulprizio, M., Nesser, H., Chen, Z., Balasus, N., Hancock, S. E., He, M., East, J. D., Mooring, T. A., Oort Alonso, A., Maasakkers, J. D., Aben, I., Baray, S., Bowman, K. W., Worden, J. R., Cardoso-Saldaña, F. J., Reidy, E., and Jacob, D. J.: Integrated Methane Inversion (IMI) 2.0: an improved research and stakeholder tool for monitoring total methane emissions with high resolution worldwide using TROPOMI satellite observations, Geoscientific Model Development, 18, 3311–3330, [https://doi.org/10.5194/gmd-18-3311-2025](https://doi.org/10.5194/gmd-18-3311-2025), 2025.
 
