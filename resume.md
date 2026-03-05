@@ -3,9 +3,6 @@ layout: page
 title: CV
 permalink: /cv/
 ---
-<div class="cv-topbar">
-<a href="/pdfs/Public_Resume.pdf">PDF Version</a>
-</div>
 ### Education
 
 **Harvard University**\

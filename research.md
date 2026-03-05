@@ -5,8 +5,9 @@ permalink: /research/
 ---
 
 <div class="content-card">
-Check out my [google scholar profile](https://scholar.google.com/citations?user=bGCANyQAAAAJ&hl=en) for up to date information on my publications.
+Check out my <a href="https://scholar.google.com/citations?user=bGCANyQAAAAJ&hl=en" target="_blank">google scholar profile</a> for up to date information on my publications.
 
+Here is a cool dashboard I built to visualize methane emissions across the contiguous U.S. (CONUS) using the satellite data and inversion results from one of my papers. It allows you to explore spatial and temporal patterns of methane emissions, identify hotspots, and track trends over time. Check it out!
 <a href="https://laestrada.github.io/conus_emissions_viz/" target="_blank" class="button">CONUS Viz Dashboard</a>
 </div>
 
