@@ -279,8 +279,7 @@ pre {
 .profile-card,
 .content-card,
 .recipe-card,
-.list-card,
-.cv-topbar {
+.list-card {
   background: rgba(255, 255, 255, 0.8);
   border: 1px solid #d7e1ef;
   border-radius: 18px;
@@ -369,12 +368,6 @@ pre {
 
 .link-list li {
   margin-bottom: 0.45rem;
-}
-
-.cv-topbar {
-  margin: 0 0 1.35rem;
-  padding: 0.8rem 1rem;
-  text-align: right;
 }
 
 .site-footer {
