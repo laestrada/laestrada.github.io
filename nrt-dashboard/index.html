@@ -1,0 +1,136 @@
+---
+layout: null
+permalink: /nrt-imi/
+---
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Near-Real-Time Beta Methane Emissions Explorer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="{{ '/nrt-dashboard/styles.css' | relative_url }}" />
+  <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}">
+</head>
+
+<body>
+  <div class="layout" id="layout">
+    <div id="map"></div>
+    <button id="toggleChartSize" class="panelSideTab" type="button" aria-label="Widen charts panel">
+      <span class="panelSideTabArrow" id="toggleChartArrow" aria-hidden="true">◀</span>
+    </button>
+
+    <aside class="panel">
+      <div class="hero">
+        <p class="eyebrow">Regional Grid Explorer</p>
+        <h1 class="title" id="panelTitle">Near-Real-Time Beta Methane Emissions Explorer</h1>
+        <p class="hint lead" id="panelSubtitle">
+          Monthly methane emissions for Mid-Atlantic U.S. generated with the IMI using TROPOMI satellite data. See Estrada et al. (202X) for details.
+        </p>
+      </div>
+
+      <div class="section">
+        <h3>Selections</h3>
+        <div class="grid">
+          <div class="field">
+            <label for="datasetSelect">Dataset</label>
+            <select id="datasetSelect"></select>
+          </div>
+
+          <div class="field">
+            <label for="periodSelect">Month</label>
+            <select id="periodSelect"></select>
+          </div>
+
+          <div class="field field-wide">
+            <label for="variableSelect">Sector</label>
+            <select id="variableSelect"></select>
+          </div>
+
+          <div class="field">
+            <label for="unitSelect">Chart units</label>
+            <select id="unitSelect">
+              <option value="Tg">Tg/month</option>
+              <option value="Gg">Gg/month</option>
+            </select>
+          </div>
+        </div>
+        <div class="hint selection-line" id="selectionSummary"></div>
+        <div class="hint selection-stat" id="selectionStats"></div>
+      </div>
+
+      <div class="section">
+        <h3>Map Overlay</h3>
+
+        <div class="field">
+          <label for="gridOpacitySlider">Overlay opacity</label>
+          <div class="sliderRow">
+            <input id="gridOpacitySlider" type="range" min="0" max="100" step="1" value="50" />
+            <span id="gridOpacityValue" class="sliderValue">50%</span>
+          </div>
+        </div>
+
+        <div class="field" style="margin-top: 12px;">
+          <label for="gridMaxSlider">Colorbar max</label>
+          <div class="sliderRow">
+            <input id="gridMaxSlider" type="range" min="0" max="1000" step="1" value="1000" />
+            <span id="gridMaxValue" class="sliderValue"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="section chartSection" id="chartsSection">
+        <div class="sectionHeader">
+          <h3>Regional Charts</h3>
+        </div>
+        <div class="sectionBody">
+          <div class="chartActions">
+            <button id="downloadBarCsv">Download bar CSV</button>
+            <button id="downloadLineCsv">Download timeseries CSV</button>
+            <button id="downloadNetcdf">Download NetCDF</button>
+          </div>
+
+          <div class="chartTitle">Selected month sector totals</div>
+          <div class="chartCanvasWrap">
+            <canvas id="barChart" height="170"></canvas>
+          </div>
+
+          <div class="chartSpacer"></div>
+
+          <div class="chartTitle">Monthly regional totals</div>
+          <div class="timeseriesControls">
+            <label class="toggleRow" for="lineMovingAverageToggle">
+              <span>Show 3-month moving average</span>
+              <input id="lineMovingAverageToggle" type="checkbox" />
+            </label>
+            <div class="field">
+              <label>Compare datasets</label>
+              <div id="lineDatasetList" class="datasetToggleList"></div>
+            </div>
+          </div>
+          <div class="chartCanvasWrap">
+            <canvas id="lineChart" height="170"></canvas>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="https://unpkg.com/georaster@1.6.0/dist/georaster.browser.bundle.js"></script>
+  <script
+    src="https://unpkg.com/georaster-layer-for-leaflet@3.10.0/georaster-layer-for-leaflet.browserify.min.js"></script>
+  <script src="https://unpkg.com/chroma-js@2.4.2/chroma.min.js"></script>
+
+  <script>
+    window.NRT_DASHBOARD_CONFIG = {
+      dataRootUrl: "https://conus-emissions-test-bucket.s3.amazonaws.com/",
+    };
+  </script>
+  <script src="{{ '/nrt-dashboard/app.js' | relative_url }}"></script>
+</body>
+
+</html>
