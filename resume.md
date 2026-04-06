@@ -3,157 +3,152 @@ layout: page
 title: CV
 permalink: /cv/
 ---
-### Education
 
-**Harvard University**\
-*PhD candidate in Environmental Science and Engineering*\
-Secondary degree in Data Science
+## Research Summary
 
-**Williams College**\
-*Bachelor of Arts in Geoscience and Computer Science*\
-Varsity Cross Country and Track\
-Dean's List 2019
+PhD candidate in Environmental Science & Engineering at Harvard developing inverse modeling systems to quantify methane emissions from satellite observations. Combines atmospheric science, data science, and scientific software engineering to build widely used tools for emissions monitoring.
 
-### Relevant Experience
+## Education
 
-**PhD Candidate**, Harvard Atmospheric Chemistry Modeling Group, Harvard University\
-Advised by Dr. Daniel Jacob
+**Harvard University**  
+*PhD Candidate, Environmental Science & Engineering; Secondary Field in Data Science*  
+Cambridge, MA | 2022-2027 (expected)
 
-* Developing open-source, user-friendly software to quantify and monitor methane emissions through a combination of satellite data and inverse modeling techniques
+**Williams College**  
+*B.A. in Geoscience & Computer Science; Varsity XC and Track*  
+Williamstown, MA | 2015-2019
 
-* Applying novel data assimilation techniques to estimate US methane emissions from satellite data
+## Selected Publications
 
-**Scientific Programmer**, GEOS-Chem Support Team, Harvard University\
+- **Estrada, L. A.**, Jacob, D. J., He, M., East, J. D., Varon, D. J., Balasus, N., Hancock, S. E., Sulprizio, M., Bowman, K. W., Worden, J. R., Reidy, E., and Runkle, B. R. K. Quantifying national, state, and oil/gas field methane emissions and trends in the U.S. (2019-2024) through high resolution inversion of satellite observations. *EGUsphere* [preprint], 2026. [https://doi.org/10.5194/egusphere-2026-655](https://doi.org/10.5194/egusphere-2026-655)
+- **Estrada, L. A.**, Varon, D. J., Sulprizio, M., Nesser, H., Chen, Z., Balasus, N., Hancock, S. E., He, M., East, J. D., Mooring, T. A., Oort Alonso, A., Maasakkers, J. D., Aben, I., Baray, S., Bowman, K. W., Worden, J. R., Cardoso-Saldana, F. J., Reidy, E., and Jacob, D. J. Integrated Methane Inversion (IMI) 2.0: an improved research and stakeholder tool for monitoring total methane emissions with high resolution worldwide using TROPOMI satellite observations. *Geoscientific Model Development*, 18, 3311-3330, 2025. [https://doi.org/10.5194/gmd-18-3311-2025](https://doi.org/10.5194/gmd-18-3311-2025)
+
+## Relevant Experience
+
+**PhD Candidate, Harvard University**  
+Cambridge, MA | Sept 2022-Present  
+Advised by Dr. Daniel Jacob and Dr. Daniel Varon
+
+- Develop inverse modeling frameworks to quantify methane emissions from TROPOMI satellite observations
+- Lead development of the Integrated Methane Inversion (IMI), a cloud-based platform used by 100+ researchers worldwide
+- Design machine learning emulators of chemical transport models to accelerate large-scale inversion workflows
+- Build open-source scientific software that improves accessibility, reproducibility, and operational scalability in greenhouse gas research
+
+**Scientific Programmer, GEOS-Chem Support Team, Harvard University**  
+Cambridge, MA | 2021-Aug 2022  
 Supervised by Dr. Daniel Jacob
 
-* Supporting postdocs and graduate students on research projects requiring technical expertise
+- Built prototype methane inversion system forming the foundation for IMI
+- Extended GEOS-Chem cloud capabilities, improving scalability and lowering barriers to use for the research community
+- Contributed to model infrastructure, including GCPy analysis tools and the KPP chemical solver
+- Supported research groups with advanced modeling workflows and technical troubleshooting
 
-* Further developing and improving the capability of running GEOS-Chem and GCHP on the cloud
- 
-* Developing structural updates to the model’s analysis tools (GCPy) and chemical solver (KPP)
+**Software Engineer, Nevo Technologies**  
+2020-Aug 2021
 
-* Providing user support to a vibrant community of users via github issues
+- Developed and deployed cloud-native applications using a variety of AWS services
+- Built pipelines processing big data across distributed systems
+- Worked across the full stack using TypeScript and .NET in agile development environments
 
-**Software Engineer**, Nevo Technologies
-
-* Worked as part of a high velocity agile development team on a wide
-variety of projects
-
-* Gained experience in web/mobile app development and AWS ecosystem
-
-* Quickly adapted to new technologies, stacks, and development
-environments
-
-* Implemented ETL processes for high volume data processing project
-
-**Research Intern**, Incorporated Research Institutions for Seismology\
+**Research Intern, Incorporated Research Institutions for Seismology**  
+Summer 2019  
 Supervised by Dr. Kasey Aderhold
 
-* Conducted novel seismic research studying Alaskan Sea Ice modulations of
-seismic noise
+- Analyzed seismic noise to study Alaskan sea ice dynamics using statistical modeling
+- Developed Python and Matlab pipelines for real-time data ingestion via the IRIS API
 
-* Performed statistical analyses of seismic data in Matlab and Python
-
-* Presented research at American Geophysical Union conference 2019
-
-* Wrote scripts that pull data in real time directly from the IRIS data center API
-
-**Research Assistant**, Cohen Lab - Williams College\
+**Research Assistant, Williams College**  
+Summer 2018  
 Supervised by Dr. Phoebe Cohen
 
-* Studied the microfossil and mercury content of Devonian Shales to
-investigate the End-Devonian mass extinction
+- Investigated End-Devonian mass extinction using microfossil and geochemical data
+- Built Python tools integrating Macrostrat and Paleobiology databases
 
-* Prepared samples for analysis and recorded detailed notes of results and
-procedures
+**Crew, Appalachian Mountain Club Cold River Camp**  
+Chatham, NH | Summer 2017
 
-* Presented research at the Geological Society of America's 2018
-Conference in Indianapolis
+- Lived and worked with colleagues in a team-oriented, fast-paced environment
+- Maintained buildings and grounds, served on waitstaff, and ensured guest satisfaction
 
-* Wrote Python scripts to analyze datasets from the Macrostrat and
-Paleobio Database API
+## Technical Skills
 
-**Crew**, Appalachian Mountain Club Cold River Camp - Chatham, NH
+**Programming:** Python, TypeScript, C/C++, Fortran, SQL  
+**Cloud & DevOps:** AWS (Lambda, ECS, RDS, Step Functions, Batch), Docker, Terraform  
+**Scientific Computing:** GEOS-Chem, inverse modeling, numerical methods  
+**Other:** Git, CI/CD, Linux
 
-* Lived and worked with colleagues in a team-oriented, fast-paced
-environment
+## Conferences and Talks
 
-* Maintained all buildings and grounds; Served on waitstaff and ensured
-guest satisfaction
+- **AGU 2025:** *Quantifying U.S. methane emission trends (2019-2024)*
+- **MIT Mites STEM Talk 2025:** *Research and career talk for 200+ students*
+- **EGU 2025:** *Quantifying U.S. methane emission trends (2019-2024)*
+- **AGU 2023:** *Integrated Methane Inversion (IMI) 2.0*
+- **GEOS-Chem Conference 2022:** *IMI 1.0 platform*
+- **AGU 2019:** *Sea ice modulation of seismic noise*
+- **GSA 2018:** *End-Devonian extinction analysis*
 
-**Intern**, Weston Geophysical -- Lexington, MA
+## Service and Leadership
 
-* Analyzed global seismic activity using company software in a Linux
-environment
+**Summer School for Inverse Modeling of Greenhouse Gases, Teaching Assistant**  
+Summer 2025
 
-* Setup and Prepared equipment for offsite seismic studies
+- Supported students with inverse modeling concepts and coding workflows
 
-### Technical Skills
-**Programming**\
-Python, Java, TypeScript, C/C\#/C++, Matlab, SQL/PSQL, Docker, AWS,
-Terraform, Linux, Object Oriented Programming, Unit Testing, Debugging,
-Version Control (Git), Bitbucket Pipelines, SQL/PSQL
+**Undergraduate Research Mentor**  
+Summer 2024-Present
 
-**Frameworks**\
-Angular, .NET Core, React Native, Xamarin Forms
+- Supervised multiple undergraduate projects on methane emissions in India and the Appalachian Basin
 
-**Software**\
-ArcGIS, InDesign, Microsoft Suite
+**SKATERS Organizer**  
+Fall 2024-Present
 
-### Service and Leadership
+- Help organize a community of early-career scientists focused on inverse modeling, collaboration, and peer support
 
-**Purple Bike Coalition President, Treasurer, Mechanic**
+**Atmospheric Chemistry Teaching Assistant**  
+Spring 2024
 
-Manage shop budget, train and hire mechanics, organize work schedules
+- Led sections, taught problem-solving, and graded coursework
 
-**Teaching Assistant - Geoscience 101**, Williams College
+**Stanford Code in Place, Co-section Leader**  
+Spring 2020
 
-Assist 30+ students in labs and answer questions related to lectures and
-course materials
+- Taught a virtual programming course during COVID-19
 
-Review and grade student labs
+**Purple Bike Coalition, President, Treasurer, Mechanic**  
+Williams College | 2016-2019
 
-**Track Captain**, Williams College
+- Managed shop budget, trained and hired mechanics, and organized work schedules
 
-Organize team events, promote positive culture, communicate with coaches
+**Geoscience 101, Williams College, Teaching Assistant**  
+2019
 
-### Projects
+- Assisted 30+ students in lab and answered questions related to lectures and course materials
+- Reviewed and graded student lab work
 
-**Integrated Methane Inversion (IMI)**\
-The Integrated Methane Inversion (IMI) is a user-friendly research-grade cloud-computing tool for estimating total methane emissions for any domain and period of interest by analytical inversion of satellite observations from the TROPOspheric Monitoring Instrument (TROPOMI). It enables researchers and stakeholders to infer methane emissions at up to 0.25° × 0.3125° (≈ 25 × 25 km²) spatial resolution and up to weekly temporal resolution from TROPOMI satellite data resident on the Amazon Web Services (AWS) cloud, without requiring expert knowledge of inverse methods or cumbersome data download. See the [IMI website](https://imi.seas.harvard.edu/) for more information. I am the lead developer on this project.
+**Williams College, Varsity Track Captain**  
+2018-2019
 
-**Acushnet Artworks**\
-Worked as part of a small development team to implement a logo
-management web application for the Acushnet Holdings Corporation. This
-project utilized Angular for the front end application and .NET Core for
-the backend. This project was deployed and run with an entirely
-serverless footprint using AWS ECS to run a dockerized version of the
-application. I was heavily involved in standing up the necessary devOps
-infrastructure and coding both the client-side and server-side
-applications
+- Organized team events, promoted positive culture, and communicated with coaches
 
-**IHM Insights**\
-Developed a high volume, cloud-based medical data ingest and egress
-system for the Institute for Health Metrics. I worked as one the sole
-contributors handling the ingestion and transformation of EHR data from
-over 50 hospitals into our canonical persistence store on the cloud.
-This project involved leveraging a wide variety of AWS services
-including AWS Glue (Pyspark), Lambda, Step Functions, RDS Aurora, ECS,
-etc.
+## Projects
 
-**J&J JLabs Navigator**\
-Developed a web application for Johnson & Johnson's incubator program
-(JLABS). Worked on the client-side application to replace their legacy
-Drupal application with a new Angular version that provides richer
-interactions and visualizations.
+**Integrated Methane Inversion**  
+2021-Ongoing
 
-**Seismic Data Tools**\
-Programmed tools in Matlab and Python to fetch and analyze seismic noise
-from IRIS data center
+- Developed a cloud-based system for estimating methane emissions via satellite inversion (TROPOMI)
+- Architected AWS workflows enabling large-scale analysis without local data processing
+- Designed for accessibility to non-experts; adopted by 100+ scientists worldwide
+- Supports continuous, high-resolution emissions monitoring; version 2.0 released
+- Extending the platform toward near-real-time methane emissions monitoring
 
-**Paleontology Scripting Analysis**\
-Wrote Python scripts to interact and analyze data from Macrostrat and
-the Paleobio Database API's
+**IHM Insights**  
+2020
 
-**Roguelike Game Development**\
-Implemented and developed JavaScript rogue-like video game
+- Built a cloud-based system ingesting electronic health records from 50+ hospitals into PostgreSQL on AWS
+- Implemented distributed pipelines using AWS Glue (PySpark), Lambda, and Step Functions
+
+**Acushnet Artworks**  
+2021
+
+- Developed a serverless web application using Angular and .NET Core, deployed via AWS ECS
+- Led DevOps setup and contributed across frontend and backend
