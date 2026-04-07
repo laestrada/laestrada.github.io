@@ -17,9 +17,7 @@ APP_DIR = SCRIPT_DIR.parent
 EMISSIONS_DIR = (
     APP_DIR.parent
     / "imi_output"
-    / "Marcellus_operational_TROPOMI_12km_KF"
-    / "kf_inversions"
-    / "for_jpl"
+    / "analysis"
     / "emissions"
 )
 OUT_DIR = APP_DIR / "data"
@@ -43,8 +41,12 @@ VARIABLES = [
     "EmisCH4_Wastewater",
     "EmisCH4_Rice",
     "EmisCH4_Reservoirs",
+    "EmisCH4_OtherAnth",
     "EmisCH4_Wetlands",
+    "EmisCH4_Lakes",
     "EmisCH4_BiomassBurn",
+    "EmisCH4_Seeps",
+    "EmisCH4_Termites",
 ]
 
 VARIABLE_LABELS = {
@@ -57,8 +59,12 @@ VARIABLE_LABELS = {
     "EmisCH4_Wastewater": "Wastewater",
     "EmisCH4_Rice": "Rice",
     "EmisCH4_Reservoirs": "Reservoirs",
+    "EmisCH4_OtherAnth": "Other Anthro",
     "EmisCH4_Wetlands": "Wetlands",
+    "EmisCH4_Lakes": "Lakes",
     "EmisCH4_BiomassBurn": "Biomass Burning",
+    "EmisCH4_Seeps": "Seeps",
+    "EmisCH4_Termites" : "Termites",
 }
 
 DATASET_LABELS = {
@@ -69,6 +75,13 @@ DATASET_LABELS = {
 }
 
 EXCLUDED_DATASETS = {"kalman_prior"}
+
+DATASET_PATH_KEYS = {
+    ("operational_emissions", "prior"): "prior",
+    ("operational_emissions", "posterior"): "posterior",
+    ("operational_emissions", "kalman_prior"): "kalman_prior",
+    ("blended_emissions", "posterior"): "blended_posterior",
+}
 
 
 def slug_label(key: str) -> str:
@@ -109,11 +122,17 @@ def extract_period_key(path: Path) -> str:
     return str(int(match.group(1)))
 
 
-def dataset_dirs() -> list[Path]:
-    return sorted(
-        path for path in EMISSIONS_DIR.iterdir()
-        if path.is_dir() and path.name not in EXCLUDED_DATASETS and any(path.glob("*.nc"))
-    )
+def dataset_sources() -> list[tuple[str, Path]]:
+    sources: list[tuple[str, Path]] = []
+    for path in sorted(EMISSIONS_DIR.glob("*/*")):
+        if not path.is_dir():
+            continue
+        dataset_key = DATASET_PATH_KEYS.get((path.parent.name, path.name))
+        if dataset_key is None or dataset_key in EXCLUDED_DATASETS:
+            continue
+        if any(path.glob("*.nc")):
+            sources.append((dataset_key, path))
+    return sources
 
 
 def safe_float(value) -> float:
@@ -167,12 +186,11 @@ def main():
         "periods": [],
         "data": {},
         "bounds": None,
-        "grid_units_html": "kg km<sup>-2</sup> h<sup>-1</sup>",
+        "grid_units_html": "kg h<sup>-1</sup>",
         "summary_unit": "kg/month",
     }
 
-    for dataset_dir in dataset_dirs():
-        dataset_key = dataset_dir.name
+    for dataset_key, dataset_dir in dataset_sources():
         dataset_label = DATASET_LABELS.get(dataset_key, slug_label(dataset_key))
         manifest["datasets"].append({"key": dataset_key, "label": dataset_label})
         manifest["data"][dataset_key] = {}
@@ -213,7 +231,7 @@ def main():
                     continue
 
                 da = ds[variable]
-                map_arr = prepare_array(da * (1000**2) * 60 * 60)
+                map_arr = prepare_array(da * area * 60 * 60)
                 total_arr = prepare_array(da)
                 map_arr, _ = ensure_north_up(map_arr, lat)
                 total_arr, area_north = ensure_north_up(total_arr, lat, area)
