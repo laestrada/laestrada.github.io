@@ -397,9 +397,10 @@ function updateGridTooltip(latlng) {
   }
 
   const variable = getSelectedVariableMeta()?.label ?? "Emissions";
+  const gridUnits = state.manifest?.grid_units_html ?? "kg h<sup>-1</sup>";
   const html = `
     <strong>${variable}</strong><br>
-    ${fmt(value)} kg h<sup>-1</sup>
+    ${fmt(value)} ${gridUnits}
   `;
 
   if (!state.gridTooltip) {
