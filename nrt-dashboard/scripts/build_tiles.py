@@ -72,6 +72,8 @@ DATASET_LABELS = {
     "posterior": "TROPOMI estimate",
     "blended_posterior": "Blended TROPOMI+GOSAT estimate",
     "posterior_blended": "Blended TROPOMI+GOSAT estimate",
+    "ln_blended_posterior": "Lognormal blended TROPOMI+GOSAT estimate",
+    "err_corr_blended_posterior": "Error-correlated blended TROPOMI+GOSAT estimate",
 }
 
 EXCLUDED_DATASETS = {"kalman_prior"}
@@ -80,7 +82,6 @@ DATASET_PATH_KEYS = {
     ("operational_emissions", "prior"): "prior",
     ("operational_emissions", "posterior"): "posterior",
     ("operational_emissions", "kalman_prior"): "kalman_prior",
-    ("blended_emissions", "posterior"): "blended_posterior",
 }
 
 
@@ -122,12 +123,27 @@ def extract_period_key(path: Path) -> str:
     return str(int(match.group(1)))
 
 
+def infer_dataset_key(dataset_family: str, product_name: str) -> str | None:
+    dataset_key = DATASET_PATH_KEYS.get((dataset_family, product_name))
+    if dataset_key is not None:
+        return dataset_key
+
+    if product_name != "posterior" or not dataset_family.endswith("_emissions"):
+        return None
+
+    family_prefix = dataset_family[: -len("_emissions")]
+    if not family_prefix:
+        return None
+
+    return f"{family_prefix}_posterior"
+
+
 def dataset_sources() -> list[tuple[str, Path]]:
     sources: list[tuple[str, Path]] = []
     for path in sorted(EMISSIONS_DIR.glob("*/*")):
         if not path.is_dir():
             continue
-        dataset_key = DATASET_PATH_KEYS.get((path.parent.name, path.name))
+        dataset_key = infer_dataset_key(path.parent.name, path.name)
         if dataset_key is None or dataset_key in EXCLUDED_DATASETS:
             continue
         if any(path.glob("*.nc")):
@@ -230,7 +246,7 @@ def main():
                     print(f"Skipping {variable} (missing in {nc_path.name})")
                     continue
 
-                da = ds[variable]
+                da = ds[variable].squeeze()
                 map_arr = prepare_array(da * area * 60 * 60)
                 total_arr = prepare_array(da)
                 map_arr, _ = ensure_north_up(map_arr, lat)
