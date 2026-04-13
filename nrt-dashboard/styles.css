@@ -222,6 +222,15 @@ select {
   font-variant-numeric: tabular-nums;
 }
 
+.mapToggleRow {
+  margin-top: 10px;
+  justify-content: flex-start;
+}
+
+.mapToggleRow span {
+  flex: 1 1 auto;
+}
+
 .chartActions {
   display: flex;
   gap: 8px;
