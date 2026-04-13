@@ -31,6 +31,7 @@ const state = {
   gridLegendControl: null,
   gridTooltip: null,
   gridDisplayMax: null,
+  gridMaxLocked: false,
   gridOpacity: GRID_OPACITY,
   barChart: null,
   lineChart: null,
@@ -311,23 +312,61 @@ function getGlobalDomain(variableKey) {
   return { min, max };
 }
 
+function getManifestGridDomain() {
+  let min = Infinity;
+  let max = -Infinity;
+
+  for (const dataset of datasetOptions()) {
+    const variableMap = state.manifest?.data?.[dataset.key] ?? {};
+    for (const periodMap of Object.values(variableMap)) {
+      for (const entry of Object.values(periodMap ?? {})) {
+        if (!entry) continue;
+        const entryMin = Number(entry.min);
+        const entryMax = Number(entry.max);
+        if (Number.isFinite(entryMin)) min = Math.min(min, entryMin);
+        if (Number.isFinite(entryMax)) max = Math.max(max, entryMax);
+      }
+    }
+  }
+
+  if (!Number.isFinite(min) || !Number.isFinite(max) || max <= min) return null;
+  return { min, max };
+}
+
+function getGridColorDomain() {
+  return getGlobalDomain(getSelectedVariable());
+}
+
+function getGridSliderDomain() {
+  if (state.gridMaxLocked) {
+    return getManifestGridDomain() ?? getGridColorDomain();
+  }
+  return getGridColorDomain();
+}
+
 function syncGridOpacityUI() {
   state.el.gridOpacityValue.textContent = `${Math.round(state.gridOpacity * 100)}%`;
 }
 
 function syncGridSlider() {
-  const domain = getGlobalDomain(getSelectedVariable());
-  if (!domain) {
+  const colorDomain = getGridColorDomain();
+  const sliderDomain = getGridSliderDomain();
+  if (!colorDomain || !sliderDomain) {
     state.el.gridMaxSlider.disabled = true;
     state.el.gridMaxValue.textContent = "";
     return;
   }
 
   state.el.gridMaxSlider.disabled = false;
-  if (state.gridDisplayMax == null) state.gridDisplayMax = domain.max;
-  state.gridDisplayMax = Math.max(domain.min, Math.min(domain.max, state.gridDisplayMax));
+  if (state.gridDisplayMax == null) {
+    state.gridDisplayMax = state.gridMaxLocked ? sliderDomain.max : colorDomain.max;
+  }
+  state.gridDisplayMax = Math.max(
+    sliderDomain.min,
+    Math.min(sliderDomain.max, state.gridDisplayMax)
+  );
 
-  const t = (state.gridDisplayMax - domain.min) / (domain.max - domain.min);
+  const t = (state.gridDisplayMax - sliderDomain.min) / (sliderDomain.max - sliderDomain.min);
   state.el.gridMaxSlider.value = String(Math.round(t * 1000));
   state.el.gridMaxValue.innerHTML = `${fmt(state.gridDisplayMax)} ${state.manifest.grid_units_html}`;
 }
@@ -337,11 +376,12 @@ function updateGridLegend() {
   if (!container) return;
 
   const variable = getSelectedVariableMeta();
-  const domain = getGlobalDomain(getSelectedVariable());
+  const domain = getGridColorDomain();
   if (!variable || !domain) {
     container.innerHTML = "";
     return;
   }
+  const displayMax = Math.max(domain.min, state.gridDisplayMax ?? domain.max);
 
   const steps = 40;
   const colors = [];
@@ -356,7 +396,7 @@ function updateGridLegend() {
       <div class="bar" style="background:linear-gradient(to right, ${colors.join(",")});"></div>
       <div class="labels">
         <span>${fmt(domain.min)}</span>
-        <span>${fmt(state.gridDisplayMax ?? domain.max)}</span>
+        <span>${fmt(displayMax)}</span>
       </div>
     </div>
   `;
@@ -444,7 +484,7 @@ async function setGridLayerForSelection() {
   const arrayBuffer = await response.arrayBuffer();
   const georaster = await parseGeoraster(arrayBuffer);
   state.gridGeoraster = georaster;
-  const domain = getGlobalDomain(variableKey);
+  const domain = getGridColorDomain();
 
   state.gridLayer = new GeoRasterLayer({
     georaster,
@@ -454,7 +494,7 @@ async function setGridLayerForSelection() {
       const value = values?.[0];
       if (value == null || Number.isNaN(value)) return null;
       const min = domain?.min ?? 0;
-      const max = state.gridDisplayMax ?? domain?.max ?? 1;
+      const max = Math.max(min, state.gridDisplayMax ?? domain?.max ?? 1);
       const t = Math.max(0, Math.min(1, (value - min) / ((max - min) || 1)));
       return chroma.scale(GRID_COLORMAP)(t).hex();
     },
@@ -689,14 +729,14 @@ async function initMap() {
 
 function wireEvents() {
   state.el.datasetSelect.addEventListener("change", async () => {
-    state.gridDisplayMax = null;
+    if (!state.gridMaxLocked) state.gridDisplayMax = null;
     syncDefaultLineDatasetSelection();
     await setGridLayerForSelection();
     updateCharts();
   });
 
   state.el.variableSelect.addEventListener("change", async () => {
-    state.gridDisplayMax = null;
+    if (!state.gridMaxLocked) state.gridDisplayMax = null;
     await setGridLayerForSelection();
     updateCharts();
   });
@@ -727,11 +767,27 @@ function wireEvents() {
   });
 
   state.el.gridMaxSlider.addEventListener("input", () => {
-    const domain = getGlobalDomain(getSelectedVariable());
+    const domain = getGridSliderDomain();
     if (!domain) return;
     const t = Number(state.el.gridMaxSlider.value) / 1000;
     state.gridDisplayMax = domain.min + t * (domain.max - domain.min);
     state.el.gridMaxValue.innerHTML = `${fmt(state.gridDisplayMax)} ${state.manifest.grid_units_html}`;
+    state.gridLayer?.redraw?.();
+    updateGridLegend();
+  });
+
+  state.el.gridMaxLockToggle.addEventListener("change", () => {
+    state.gridMaxLocked = state.el.gridMaxLockToggle.checked;
+    if (!state.gridMaxLocked) {
+      const domain = getGridColorDomain();
+      if (domain) {
+        state.gridDisplayMax = Math.max(
+          domain.min,
+          Math.min(domain.max, state.gridDisplayMax ?? domain.max)
+        );
+      }
+    }
+    syncGridSlider();
     state.gridLayer?.redraw?.();
     updateGridLegend();
   });
@@ -799,7 +855,9 @@ function initControls() {
   state.lineCompareCustomized = false;
   state.lineShowMovingAverage = false;
   state.chartsExpanded = false;
+  state.gridMaxLocked = false;
   state.el.lineMovingAverageToggle.checked = false;
+  state.el.gridMaxLockToggle.checked = false;
   updateTimeseriesControls();
   syncGridOpacityUI();
   applyChartSizeState();
@@ -817,6 +875,7 @@ async function main() {
     gridOpacityValue: $("gridOpacityValue"),
     gridMaxSlider: $("gridMaxSlider"),
     gridMaxValue: $("gridMaxValue"),
+    gridMaxLockToggle: $("gridMaxLockToggle"),
     selectionSummary: $("selectionSummary"),
     selectionStats: $("selectionStats"),
     chartsSection: $("chartsSection"),
