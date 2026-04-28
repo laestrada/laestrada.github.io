@@ -1,7 +1,7 @@
 import json
 import re
 import shutil
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 import numpy as np
@@ -22,7 +22,6 @@ EMISSIONS_DIR = (
 )
 OUT_DIR = APP_DIR / "data"
 PERIODS_CSV_CANDIDATES = [
-    APP_DIR.parent / "imi_output" / "Marcellus_operational_TROPOMI_12km_KF" / "kf_inversions" / "for_jpl" / "periods.csv",
     APP_DIR.parent / "imi_output" / "Marcellus_operational_TROPOMI_12km_KF" / "periods.csv",
     APP_DIR.parent / "integrated_methane_inversion" / "periods.csv",
 ]
@@ -186,9 +185,12 @@ def main():
     tif_root.mkdir(parents=True, exist_ok=True)
 
     periods = load_periods()
+    generated_at = datetime.now(timezone.utc).replace(microsecond=0)
     manifest = {
         "title": "Near-Real-Time Beta Methane Emissions Explorer",
         "description": "Monthly methane emissions for Mid-Atlantic U.S. generated with the IMI using TROPOMI satellite data. See Estrada et al. (202X) for details.",
+        "generated_at": generated_at.isoformat().replace("+00:00", "Z"),
+        "asset_version": generated_at.strftime("%Y%m%dT%H%M%SZ"),
         "region": {
             "name": "Mid-Atlantic U.S.",
             "source_dir": str(EMISSIONS_DIR.relative_to(APP_DIR.parent)).replace("\\", "/"),

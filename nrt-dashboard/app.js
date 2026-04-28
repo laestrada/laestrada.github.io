@@ -11,6 +11,7 @@
 const DASHBOARD_CONFIG = window.NRT_DASHBOARD_CONFIG ?? {};
 const DATA_ROOT_URL = DASHBOARD_CONFIG.dataRootUrl ?? "https://conus-emissions-test-bucket.s3.amazonaws.com/";
 const GRID_MANIFEST_PATH = DASHBOARD_CONFIG.manifestPath ?? "data/manifest.json";
+const DASHBOARD_LOAD_ID = DASHBOARD_CONFIG.loadId ?? String(Date.now());
 const GRID_COLORMAP = "ylorrd";
 const GRID_OPACITY = 0.5;
 const GRID_RESOLUTION = 256;
@@ -50,10 +51,44 @@ function isAbsoluteUrl(value) {
   return /^[a-z]+:\/\//i.test(value);
 }
 
-function resolveDataUrl(path) {
+function appendUrlParam(url, key, value) {
+  if (!value) return url;
+  const nextUrl = new URL(url, window.location.href);
+  nextUrl.searchParams.set(key, value);
+  return nextUrl.toString();
+}
+
+function resolveDataUrl(path, options = {}) {
   if (!path) return path;
-  if (isAbsoluteUrl(path)) return path;
-  return new URL(path.replace(/^\//, ""), DATA_ROOT_URL).toString();
+  const url = isAbsoluteUrl(path)
+    ? path
+    : new URL(path.replace(/^\//, ""), DATA_ROOT_URL).toString();
+  return options.version ? appendUrlParam(url, "v", options.version) : url;
+}
+
+function getAssetVersion() {
+  return (
+    DASHBOARD_CONFIG.assetVersion ??
+    state.manifest?.asset_version ??
+    state.manifest?.generated_at ??
+    DASHBOARD_LOAD_ID
+  );
+}
+
+function resolveAssetUrl(path) {
+  return resolveDataUrl(path, { version: getAssetVersion() });
+}
+
+async function fetchManifest() {
+  const manifestVersion = DASHBOARD_CONFIG.manifestVersion ?? DASHBOARD_LOAD_ID;
+  const response = await fetch(
+    resolveDataUrl(GRID_MANIFEST_PATH, { version: manifestVersion }),
+    { cache: "no-store" }
+  );
+  if (!response.ok) {
+    throw new Error(`Failed to load manifest: ${response.status} ${response.statusText}`);
+  }
+  return response.json();
 }
 
 function fmt(v) {
@@ -480,7 +515,7 @@ async function setGridLayerForSelection() {
     return;
   }
 
-  const response = await fetch(resolveDataUrl(entry.tif));
+  const response = await fetch(resolveAssetUrl(entry.tif));
   const arrayBuffer = await response.arrayBuffer();
   const georaster = await parseGeoraster(arrayBuffer);
   state.gridGeoraster = georaster;
@@ -808,7 +843,7 @@ function wireEvents() {
     if (!entry?.nc) return;
     const dataset = datasetLabel(getSelectedDataset()).replace(/\s+/g, "_");
     const period = periodLabel(getSelectedPeriod()).replace(/\s+/g, "_");
-    downloadUrl(`emissions_${dataset}_${period}.nc`, resolveDataUrl(entry.nc));
+    downloadUrl(`emissions_${dataset}_${period}.nc`, resolveAssetUrl(entry.nc));
   });
 
   window.addEventListener("resize", () => {
@@ -889,7 +924,7 @@ async function main() {
     lineChart: $("lineChart"),
   };
 
-  state.manifest = await (await fetch(resolveDataUrl(GRID_MANIFEST_PATH))).json();
+  state.manifest = await fetchManifest();
   document.title = state.manifest.title ?? document.title;
   $("panelTitle").textContent = state.manifest.title ?? $("panelTitle").textContent;
   $("panelSubtitle").textContent =
