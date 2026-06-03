@@ -9,7 +9,8 @@
    ========================================================= */
 
 const DASHBOARD_CONFIG = window.NRT_DASHBOARD_CONFIG ?? {};
-const DATA_ROOT_URL = DASHBOARD_CONFIG.dataRootUrl ?? "https://imi-results.s3.amazonaws.com/";
+const DATA_ROOT_URL =
+  DASHBOARD_CONFIG.dataRootUrl ?? "https://imi-results.s3.amazonaws.com/estrada202x/";
 const GRID_MANIFEST_PATH = DASHBOARD_CONFIG.manifestPath ?? "data/manifest.json";
 const DASHBOARD_LOAD_ID = DASHBOARD_CONFIG.loadId ?? String(Date.now());
 const GRID_COLORMAP = "ylorrd";
