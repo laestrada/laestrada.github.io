@@ -4,7 +4,7 @@ This dashboard is set up to visualize the monthly Mid-Atlantic emissions product
 
 `../imi_output/Marcellus_operational_TROPOMI_12km_KF/kf_inversions/for_jpl/emissions`
 
-It now works as a regional grid explorer instead of a state-by-state CONUS dashboard:
+It now works as a regional grid explorer dashboard:
 
 - The map shows gridded methane emissions for a selected dataset, month, and sector.
 - The bar chart summarizes regional totals for the selected month.
