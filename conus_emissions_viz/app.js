@@ -64,7 +64,7 @@ const GRID_VAR_BY_SECTOR = {
   Coal: "EmisCH4_Coal",
   ONG: "EmisCH4_ONG",
   Rice: "EmisCH4_Rice",
-  BiomassBurning: "EmisCH4_BiomassBurning",
+  BiomassBurn: "EmisCH4_BiomassBurn",
   Wetlands: "EmisCH4_Wetlands",
   Reservoirs: "EmisCH4_Reservoirs",
 };
