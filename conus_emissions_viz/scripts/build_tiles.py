@@ -29,6 +29,7 @@ VARS = [
     "EmisCH4_Rice",
     "EmisCH4_Reservoirs",
     "EmisCH4_Wetlands",
+    "EmisCH4_BiomassBurn",
 ]
 
 # optional: clamp tiny negatives to 0 (often numerical noise)
