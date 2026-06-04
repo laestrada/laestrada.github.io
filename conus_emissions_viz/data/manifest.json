@@ -10,7 +10,8 @@
     "EmisCH4_Landfills",
     "EmisCH4_Rice",
     "EmisCH4_Reservoirs",
-    "EmisCH4_Wetlands"
+    "EmisCH4_Wetlands",
+    "EmisCH4_BiomassBurn"
   ],
   "years": [
     "2019",
@@ -569,6 +570,56 @@
         "nc": "data/nc/prior_2020.nc",
         "min": 0.0,
         "max": 3.2483174800872803
+      }
+    },
+    "EmisCH4_BiomassBurn": {
+      "2019": {
+        "tif": "data/tif/EmisCH4_BiomassBurn_2019.tif",
+        "nc": "data/nc/posterior_ens_mean_2019.nc",
+        "min": 0.0,
+        "max": 0.7510556578636169
+      },
+      "2020": {
+        "tif": "data/tif/EmisCH4_BiomassBurn_2020.tif",
+        "nc": "data/nc/posterior_ens_mean_2020.nc",
+        "min": 0.0,
+        "max": 5.1880388259887695
+      },
+      "2021": {
+        "tif": "data/tif/EmisCH4_BiomassBurn_2021.tif",
+        "nc": "data/nc/posterior_ens_mean_2021.nc",
+        "min": 0.0,
+        "max": 1.870035171508789
+      },
+      "2022": {
+        "tif": "data/tif/EmisCH4_BiomassBurn_2022.tif",
+        "nc": "data/nc/posterior_ens_mean_2022.nc",
+        "min": 0.0,
+        "max": 2.1743080615997314
+      },
+      "2023": {
+        "tif": "data/tif/EmisCH4_BiomassBurn_2023.tif",
+        "nc": "data/nc/posterior_ens_mean_2023.nc",
+        "min": 0.0,
+        "max": 23.750988006591797
+      },
+      "2024": {
+        "tif": "data/tif/EmisCH4_BiomassBurn_2024.tif",
+        "nc": "data/nc/posterior_ens_mean_2024.nc",
+        "min": 0.0,
+        "max": 3.9201273918151855
+      },
+      "2019_prior": {
+        "tif": "data/tif/EmisCH4_BiomassBurn_2019_prior.tif",
+        "nc": "data/nc/prior_2019.nc",
+        "min": 0.0,
+        "max": 0.43589967489242554
+      },
+      "2020_prior": {
+        "tif": "data/tif/EmisCH4_BiomassBurn_2020_prior.tif",
+        "nc": "data/nc/prior_2020.nc",
+        "min": 0.0,
+        "max": 6.510927200317383
       }
     }
   }
