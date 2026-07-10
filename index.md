@@ -7,7 +7,7 @@ layout: default
   </div>
   <div>
     <h1>Lucas Estrada</h1>
-    <p class="bio">I am a PhD Candidate in Harvard's <a href="https://acmg.seas.harvard.edu/">Atmospheric Chemistry Modeling Group</a>. My research focuses on developing methods and open-source tools for quantifying and monitoring methane emissions using satellite data and inverse modeling. Learn more on the <a href="https://carboninversion.com/">IMI project website</a>. Outside research, I spend time running, climbing, cooking, and playing with dogs.</p>
+    <p class="bio">I am a PhD Candidate in Harvard's <a href="https://acmg.seas.harvard.edu/">Atmospheric Chemistry Modeling Group</a>. My research focuses on developing computational methods for satellite-based environmental monitoring, including inverse modeling, uncertainty quantification, and machine learning, with a current focus on methane emission quantification. Outside of research, I enjoy running, biking, climbing, reading, and playing with dogs.</p>
     <div>
       <span class="hero-chip">Atmospheric Chemistry</span>
       <span class="hero-chip">Greenhouse Gases</span>
