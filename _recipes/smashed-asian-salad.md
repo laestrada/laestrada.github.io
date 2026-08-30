@@ -7,10 +7,8 @@ type: Salads
 featured_image: https://thewoksoflife.com/wp-content/uploads/2015/05/asian-cucumber-salad-5.jpg
 link: https://thewoksoflife.com/smashed-asian-cucumber-salad/
 ---
-## Description
+## Details
 Yield: 4 servings
-
-This Smashed Asian cucumber salad recipe is light, refreshing and perfect for the summer, but packed with flavor from a zingy dressing, garlic, and cilantro. It only takes 10 minutes to make!
 
 ## Ingredients
 * 2 seedless cucumbers (about 1 to 1 1/2 lbs; 600g)
@@ -33,4 +31,3 @@ This Smashed Asian cucumber salad recipe is light, refreshing and perfect for th
 1. On a cutting board, lay a large knife flat against the cucumber, and smash it lightly with your other hand. The cucumber should crack open and smash into four sections. Repeat along its full length. Once the whole cucumber is completely open (usually into 4 long sectional pieces), cut it at a 45-degree angle into bite-sized pieces.
 
 1. In a large bowl, mix the cut cucumber with the prepared dressing, garlic and chili oil (or cooked plain oil), and toss it well. Serve, garnished with sesame seeds and cilantro.
-

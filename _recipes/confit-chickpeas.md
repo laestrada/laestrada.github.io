@@ -7,10 +7,6 @@ type: Mains
 featured_image: https://assets.epicurious.com/photos/6228c22c1f7a61a76db517fc/1:1/w_2240,c_limit/Confit%20Tandoori%20Chickpeas.jpg
 link: https://www.epicurious.com/recipes/food/views/confit-tandoori-chickpeas (also in the cookbook "Shelf Love")
 ---
-##  Description
-
-Quick and easy to make, with a big payoff! The yogurt is a key component here.
-
 ## Ingredients:
 ### Confit
 * 2 (15 oz/425 g) cans of chickpeas, drained (17 oz/480 g total)
@@ -48,4 +44,6 @@ Quick and easy to make, with a big payoff! The yogurt is a key component here.
 
 
 ## Notes
+The yogurt is a key component.
+
 Jarred or canned butter beans (lima beans) would be great here! No Kashmiri chile powder? Use an equal amount of paprika instead.

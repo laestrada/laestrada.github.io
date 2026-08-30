@@ -8,14 +8,11 @@ featured_image: https://www.healthylittlefoodies.com/wp-content/uploads/2018/01/
 link: https://www.healthylittlefoodies.com/vegetable-savoury-muffins/
 ---
 
-## Description
+## Details
 * Prep Time 15 minutes
 * Cook Time 20 minutes
 * Total Time 35 minutes
 * Servings 12 Muffins
-
-Savoury muffins packed with four different vegetables. Light and fluffy making them perfect for baby-led weaning, toddlers and the lunch box. 
-
 
 ## Ingredients
 * 1 medium (250g) Zucchini, grated

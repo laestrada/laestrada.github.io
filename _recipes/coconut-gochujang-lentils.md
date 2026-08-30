@@ -7,10 +7,6 @@ type: Mains
 featured_image: https://www.okonomikitchen.com/wp-content/uploads/2023/03/creamy-coconut-gochujang-lentils-recipe.jpg
 link: https://www.okonomikitchen.com/creamy-coconut-gochujang-lentils/
 ---
-##  Description
-
-Quick, creamy, surprisingly complex in flavor! If you don't have gochujang, sriracha works great too. We also often sub crushed red pepper for gochugaru.
-
 ## Ingredients:
 * 2 tbsp butter
 * 4 cloves (16 g) garlic, minced
@@ -44,4 +40,6 @@ Quick, creamy, surprisingly complex in flavor! If you don't have gochujang, srir
 5. Serve with rice, lime juice, cashews, cilantro and scallion tops. Enjoy!
 
 ## Notes
-Instant pot method: Set to ‘Sauté’ mode and follow steps 1-2. Add the lentils, broth, coconut milk, salt and pepper. Press Cancel and close lid with vent in sealing position. Cook on Manual High Pressure for 5 minutes. Natural release 10 minutes. Stir in soy sauce. 
+Sriracha can replace gochujang, and crushed red pepper can replace gochugaru.
+
+Instant pot method: Set to ‘Sauté’ mode and follow steps 1-2. Add the lentils, broth, coconut milk, salt and pepper. Press Cancel and close lid with vent in sealing position. Cook on Manual High Pressure for 5 minutes. Natural release 10 minutes. Stir in soy sauce.

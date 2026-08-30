@@ -7,11 +7,8 @@ type: Sides
 featured_image: https://thewoksoflife.com/wp-content/uploads/2014/04/liangban-dofu.jpg
 link: https://thewoksoflife.com/spicy-cold-tofu-liangban-dofu/
 ---
-## Description
+## Details
 Servings: 4
-
-Spicy Cold tofu or Liangban doufu is a great summer dish that is easy to make and delicious. Spicy bean sauce, sesame oil, raw scallions, and garlic form the character of this 5 minute spicy cold tofu recipe.
-
 
 ## Ingredients
 * 1 tablespoon soy sauce

@@ -7,10 +7,8 @@ type: Sides
 featured_image: https://thewoksoflife.com/wp-content/uploads/2022/08/Chinese-tea-eggs-7.jpg
 link: https://thewoksoflife.com/chinese-tea-eggs/
 ---
-## Description
+## Details
 Servings: 12 eggs
-
-A delicious breakfast, snack, or side!
 
 ## Ingredients
 * 12 eggs

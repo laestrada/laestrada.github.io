@@ -8,8 +8,6 @@ featured_image: /images/chana_dal.png
 link: https://www.teaforturmeric.com/instant-pot-pakistani-chana-dal/
 ---
 ## Details
-A quick, easy, delicious dal. This is a no-soak (unless you want to!), dump-and-go recipe with a simple tadka (tempering) of cumin seeds, onions, garlic, and chili pepper. Creamy and flavorful with only 15 minutes of hands-on time!
-
 Makes 4 servings. Total time: 45 min.
 
 ## Ingredients

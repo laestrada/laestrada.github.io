@@ -7,13 +7,11 @@ type: Baking
 featured_image: https://static01.nyt.com/images/2020/07/05/magazine/05mag-eat/05mag-eat-articleLarge.jpg
 link: https://cooking.nytimes.com/recipes/1021206-joanne-changs-maple-blueberry-scones
 ---
-## Description
+## Details
 
 YIELD: 8 Scones
 
 TIME: 1 hour, plus chilling
-
-These scones, created by Joanne Chang for her Flour Bakery & Cafe in Boston, are studded with fresh blueberries, sweetened with maple syrup and made with a blend of whole-wheat and all-purpose flours — but don’t think of them as health food. 
 
 ## Ingredients
 #### FOR THE SCONES:

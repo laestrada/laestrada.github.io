@@ -7,10 +7,6 @@ type: Mains
 featured_image: https://www.okonomikitchen.com/wp-content/uploads/2020/11/vegan-japanese-curry-recipe-from-scratch-recipe-3-of-3-1024x1536.jpg
 link: https://www.okonomikitchen.com/vegan-japanese-curry/
 ---
-##  Description
-
-Comforting and hearty!
-
 ## Ingredients:
 
 ### For the curry:

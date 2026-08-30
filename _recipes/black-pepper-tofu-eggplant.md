@@ -7,11 +7,6 @@ type: Mains
 featured_image: https://i1.wp.com/smittenkitchen.com/wp-content/uploads//2019/08/black-pepper-tofu-and-eggplant-1.jpg?fit=750%2C500&ssl=1
 link: https://smittenkitchen.com/2019/08/black-pepper-tofu-and-eggplant/
 ---
-##  Description
-
-Note: You can watch an Instagram Story demo of this recipe over here.
-For high-heat cooking and roasting, I usuaully use safflower (currently this one) or sunflower oil. Shallots vary a lot in size but I used 4 to 5 medium/big ones for 1 1/4 cups shallots. This will be too salty with regular soy sauce. If it’s all you’ve got, use 6 tablespoons plus 2 tablespoons water. Cornstarch-coated tofu likes to stick to roasting pans but I find by preheating the pan, using a thin spatula (this is my go-to), and not moving the tofu until it’s crisp and browned underneath, it’s not a problem.
-
 ## Ingredients:
 * 14-ounce package extra-firm tofu
 * Neutral oil for roasting (I use safflower)
@@ -34,3 +29,10 @@ For high-heat cooking and roasting, I usuaully use safflower (currently this one
 1. Roast tofu and eggplant in oven for 20 minutes to start. After 20 minutes, use your thinnest spatula to gently separate the tofu from the pan and flip to crisp and brown on the other side, about another 10 minutes. Do the same with the eggplant. At 30 minutes, the tofu should be crisp and browned and the eggplant should be roasted and tender. If needed, cook it for 5 more minutes.
 
 1. While tofu and eggplant roasts, prepare the sauce. Heat a large, heavy skillet over medium heat and add butter. Once butter melts, add shallots, garlic, and ginger. Reduce heat slightly and cook, stirring here and there, until everything is tender, about 11 to 14 minutes. Add the soy sauce, sugar, and black pepper and cook, simmering, for 3 minutes more. Add roasted tofu and eggplant to pan and stir to coat with sauce; cook for one to two minutes minute together. Serve over or with rice; add extra heat as needed.
+
+## Notes
+
+* Use a neutral high-heat oil such as safflower or sunflower oil.
+* Four or five medium-to-large shallots yield about 1 1/4 cups.
+* If using regular soy sauce instead of low-sodium, use 6 tablespoons soy sauce plus 2 tablespoons water.
+* To prevent the tofu from sticking, preheat the pan and wait until the tofu is crisp underneath before moving it with a thin spatula.

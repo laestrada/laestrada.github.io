@@ -7,7 +7,7 @@ type: Baking
 featured_image: https://www.bakedbyanintrovert.com/wp-content/uploads/2014/11/Cranberry-Orange-Scones-photo.webp
 link: https://www.bakedbyanintrovert.com/cranberry-orange-scones/
 ---
-## Description
+## Details
 
 YIELD: 8 Scones
 
@@ -49,4 +49,3 @@ Brush the tops of the scones with heavy cream and sprinkle with coarse sugar. Ba
 * Cranberries: I like fresh cranberries best because they're dry and don't stain the dough. You can use packaged, frozen, and thawed cranberries but keep in mind they may be wet and stain the dough. If you have fresh cranberries that have been frozen, these will work beautifully. Dried cranberries will also work.
 
 * Keep the dough cold: The scones need to be cold when going into the oven. Placing the shaped dough into the freezer for 30 minutes ensures the scones will bake up light and fluffy. Alternatively, you can place the scone dough in the refrigerator for at least 2 hours.
-

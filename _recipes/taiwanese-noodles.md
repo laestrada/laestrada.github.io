@@ -7,10 +7,8 @@ type: Mains
 featured_image: https://i0.wp.com/chejorge.com/wp-content/uploads/2021/01/IMG_0410.jpg?zoom=2&resize=930%2C620&ssl=1
 link: https://chejorge.com/2021/01/27/taiwanese-sesame-noodles-ma-jiang-mian/
 ---
-## Description
+## Details
 Servings: 4
-
-Sesame Noodles, or Ma Jiang Mian (麻醬麵): a humble yet elegant Taiwanese classic. Simple and flavorful — quite the perfect meatless weeknight meal.
 
 ## Ingredients
 * 800 grams fresh wheat noodles

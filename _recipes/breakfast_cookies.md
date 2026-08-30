@@ -9,8 +9,6 @@ link: Love Real Food
 ---
 
 ## Details
-Breakfast cookies! A tasty and substantial breakfast, especially with yogurt.
-
 Makes 10 large cookies.
 
 ## Ingredients

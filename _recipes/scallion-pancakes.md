@@ -7,7 +7,7 @@ type: Sides
 featured_image: https://media.chefdehome.com/740/0/0/pancake/scallion-pancakes.jpg 
 link: https://www.facebook.com/watch/?v=3227969583909980&t=1
 ---
-## Description
+## Details
 Makes 2 large pancakes.
 
 These scallion pancakes should be up to one centimeter thick, crispy on the outside and tender on the inside with plenty of flaky layers.

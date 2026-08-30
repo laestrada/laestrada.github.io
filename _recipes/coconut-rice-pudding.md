@@ -7,11 +7,11 @@ type: Desserts
 featured_image: /images/pudding3.jpg
 link: 
 ---
-## Description
+## Details
 
 YIELD: Plenty
 
-A very flexible and delicious recipe, courtesy of Coly's former housemate.
+Recipe from Coly's former housemate Kathrin.
 
 ## Ingredients
 #### RICE
