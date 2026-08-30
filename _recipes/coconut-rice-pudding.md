@@ -5,7 +5,7 @@ title: Coconut Rice Pudding
 author: Kathrin Stark
 type: Desserts
 featured_image: /images/pudding3.jpg
-link: 
+link:
 ---
 ## Details
 
@@ -14,38 +14,38 @@ YIELD: Plenty
 Recipe from Coly's former housemate Kathrin.
 
 ## Ingredients
-#### RICE
-* 2 sticks lemongrass 
-* 500ml coconut milk 
-* 75g sugar
-* 100g round rice (no Basmati)
+### Rice
+* 2 stalks lemongrass
+* 500 ml coconut milk
+* 75 g sugar
+* 100 g short-grain rice (not basmati)
 
-#### CRUMBLES
-* 50g nuts (e.g. cashews)
-* 75g flour
-* 2 tsp curry 
-* 50g butter 
-* 25g sugar
+### Crumble
+* 50 g nuts, such as cashews
+* 75 g flour
+* 2 teaspoons curry powder
+* 50 g butter
+* 25 g sugar
 
-#### FRUIT TOPPING
+### Fruit topping
 * Fruit (e.g. mango)
-* A little bit of lemongrass 
-* Sugar to taste
-* Spices (cinnamon, cardamom, etc)
+* Lemongrass, to taste
+* Sugar, to taste
+* Spices such as cinnamon or cardamom, to taste
 
 
 
 ## Preparation
-#### RICE
-1. Stamp the lemongrass with the dull side of a knife (without dissolving it)
-2. Let coconut milk, sugar, and lemongrass come to a boil, then add the rice, and let it cook at medium heat with frequent stirring and open pot for around 20 minutes. Let the rice cool down a bit.
+### Rice
+1. Bruise the lemongrass with the dull side of a knife, keeping the stalks intact.
+2. Bring the coconut milk, sugar, and lemongrass to a boil. Add the rice and cook uncovered over medium heat for about 20 minutes, stirring frequently. Let it cool slightly.
 3. Remove the lemongrass.
 
-#### CRUMBLES
-1. Preheat the oven to 400F. 
+### Crumble
+1. Preheat the oven to 400°F.
 2. Crush the nuts. Add flour, curry powder, and sugar.
 3. Mix in butter with your fingers, combining until the mixture has formed clumps.
-3. Spread on a baking sheet and bake until golden brown (about 10 minutes). Stir part-way through.
+4. Spread on a baking sheet and bake until golden brown, about 10 minutes, stirring halfway through.
 
-#### FRUIT TOPPING
-1. Simmer all ingredients together on the stovetop.
+### Fruit topping
+1. Chop the fruit into bite-size pieces. Simmer it with lemongrass, sugar, and spices until softened and saucy, then remove any lemongrass pieces.

@@ -8,7 +8,7 @@ featured_image: /images/chana_dal.png
 link: https://www.teaforturmeric.com/instant-pot-pakistani-chana-dal/
 ---
 ## Details
-Makes 4 servings. Total time: 45 min.
+Makes 4 servings. Total time: 45 minutes; hands-on time: about 15 minutes.
 
 ## Ingredients
 

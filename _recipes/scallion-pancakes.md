@@ -4,7 +4,7 @@ date: 2019-09-19
 title: Scallion Pancakes
 author: 培仁蔬食工作室
 type: Sides
-featured_image: https://media.chefdehome.com/740/0/0/pancake/scallion-pancakes.jpg 
+featured_image: https://media.chefdehome.com/740/0/0/pancake/scallion-pancakes.jpg
 link: https://www.facebook.com/watch/?v=3227969583909980&t=1
 ---
 ## Details
@@ -38,7 +38,7 @@ These scallion pancakes should be up to one centimeter thick, crispy on the outs
 
 8. Gently roll the dough into a coil, making sure not to squeeze the scallions out. Once the whole
 thing is rolled, pinch the ends shut, twist it little by little with both hands (starting from the
-middle), and coil it into two stacked circles (see video)
+middle), and coil it into two stacked circles.
 
 9. Let rest for 20 minutes covered in a damp cloth.
 
@@ -46,9 +46,7 @@ middle), and coil it into two stacked circles (see video)
 
 11. Once the pancake is lightly browned on one side, flip it over and cover so that it can steam.
 
-12. After several minutes, when the other side is also lightly brown (but before it’s complete cooked
-inside), take off the cover, pick up the pancake up with a spatula, and throw it back to the pan
-two times so that the layers can separate.
+12. After several minutes, when the other side is lightly browned but the pancake is not yet fully cooked inside, remove the cover. Lift the pancake with a spatula and drop it back into the pan twice to help separate the layers.
 
 13. Add oil to the pan and swirl the pancake around in it. Once one side has browned, flip it over.
 

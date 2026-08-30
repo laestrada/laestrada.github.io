@@ -12,7 +12,7 @@ link: https://tasty.co/recipe/easy-peasy-potato-curry
 TIME: 90 Minutes
 YIELD: 12 Empanadas
 
-These empanadas can be made with a variety of filling. Our favorites have included impossible beef, curried potatos, and frijoles guisados.
+These empanadas can be made with a variety of fillings. Favorites include Impossible Beef, curried potatoes, and frijoles guisados.
 
 ## Ingredients
 ### Empanada Dough
@@ -32,17 +32,22 @@ These empanadas can be made with a variety of filling. Our favorites have includ
 * 1 teaspoon cayenne
 * 2 teaspoons cumin powder
 * 1⁄2 teaspoon allspice
-* 2 teaspoons fresh ginger, minced 1⁄2 teaspoon black pepper
-* 2 lb potato, peeled and cubed
-* 15 oz chickpeas, 1 can, drained
+* 2 teaspoons fresh ginger, minced
+* 1⁄2 teaspoon black pepper
+* Salt, to taste
+* 2 lb potatoes, peeled and cubed
+* 1 (15-ounce) can chickpeas, drained
 * 1 cup vegetable broth
 * 1 tablespoon lemon juice
 * 14 oz diced tomato, 1 can
 * 14 oz coconut milk, 1 can
 * fresh cilantro, chopped, for garnish
 
+### For assembly
+* 1 egg beaten with 1 tablespoon water, for egg wash
+
 ## Preparation
-### Empanada Dough
+### Empanada dough
 
 1. Sift flour with salt into a large bowl and blend in butter with your fingertips or a pastry blender until mixture resembles coarse meal with some (roughly pea-size) butter lumps.
 
@@ -50,16 +55,7 @@ These empanadas can be made with a variety of filling. Our favorites have includ
 
 1. Turn out mixture onto a lightly floured surface and gather together, then knead gently with heel of your hand once or twice, just enough to bring dough together. Form dough into a flat rectangle and chill, wrapped in plastic wrap, at least 1 hour.
 
-1. Preheat oven to 400 degrees.
-
-1. Roll out the dough as thin as possible, then use a plate to cut out a small circle.
-
-1. Add filling and fold over, use a fork to crease the outside edge and coat with egg wash.
-
-1. Bake for 10-20 min until slightly browned. Flip over halfway through.
-
-### Fillings
-#### Curried Potatoes
+### Curried potato filling
 1. Heat the oil in a large pot over medium heat until shimmering. Add the onion and saute for about 3 minutes, until translucent.
 
 1. Add the garlic and saute for about 2 minutes, until fragrant.
@@ -74,5 +70,16 @@ These empanadas can be made with a variety of filling. Our favorites have includ
 
 1. Increase the heat to high and bring the mixture to a simmer. Once bubbling, reduce the heat to medium and cook for 15-20 minutes, until the potatoes are tender and easily pierced with a fork.
 
-#### Impossible Meat
-I usually just simmer some peppers and onions, then add the impossible beef. Spice as needed -- maybe add some BBQ sauce until nice and flavorful. 
+### Impossible Meat filling
+
+Sauté peppers and onions until soft, then add Impossible Beef. Season to taste; barbecue sauce is optional.
+
+### Assembly and baking
+
+1. Preheat oven to 400°F.
+
+1. Roll out the dough as thinly as possible, then use a small plate or round cutter to cut circles.
+
+1. Add cooled filling, fold the dough over, and crimp the edge with a fork. Brush with egg wash.
+
+1. Bake for 10-20 minutes, flipping halfway through, until lightly browned.

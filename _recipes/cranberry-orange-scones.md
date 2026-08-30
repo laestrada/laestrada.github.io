@@ -15,17 +15,26 @@ TIME: 65 Minutes
 
 ## Ingredients
 
-* All-purpose flour - 2 ¾ cups of all purpose flour is needed to make these wonderfully tall and thick scones.
-* Granulated sugar - ⅓ cup is all I use and find it adds a light sweetness to the dough.
-* Baking powder & baking soda - Using both leavening agents helps achieve the perfect texture and rise from the scones.
-* Salt & Vanilla - Enhances flavor.
-* Orange zest - Adds the orange flavor in every bite.
-* Unsalted butter - It's essential to use cold butter and cut into small pieces.
-* Cranberries - Fresh cranberries are best for this recipe.
-* Fresh orange juice - Chill the orange juice before using.
-* Whole milk - I don't recommend substituting the milk. It must be cold as well.
-* Heavy cream - You can also use milk. This is brushed over the top of the scones just before baking to provide a golden color.
-* Coarse sugar - Sprinkled on top to create a little crunch.
+### For the scones
+
+* 2 ¾ cups (357 g) all-purpose flour
+* ⅓ cup (67 g) granulated sugar
+* 1 tablespoon baking powder
+* ½ teaspoon baking soda
+* ¾ teaspoon salt
+* 1 tablespoon orange zest
+* ½ cup (113 g) unsalted butter, cold and cut into small pieces
+* ¾ cup (77 g) fresh cranberries
+* ½ cup (120 ml) fresh orange juice, cold
+* ½ cup (120 ml) whole milk, cold
+* 1 tablespoon vanilla extract
+* 2 tablespoons heavy cream or milk, for brushing
+* 2 tablespoons coarse sugar, for topping
+
+### For the glaze
+
+* 1 cup (120 g) confectioners' sugar
+* 3 tablespoons fresh orange juice
 
 ## Preparation
 
@@ -40,12 +49,13 @@ TIME: 65 Minutes
 1. Cut the circle in half, then cut each half into four triangle-shaped wedges. Arrange the scones 2 inches apart on a baking sheet lined with parchment paper. Place the scones in the freezer for 30 minutes.
 
 1. Meanwhile, position the oven rack to the center of the oven and heat to 400°F.
-Brush the tops of the scones with heavy cream and sprinkle with coarse sugar. Bake for 15 to 20 minutes or until golden brown. Transfer to a wire rack to cool and drizzle with glaze.
 
-#### Make the Glaze
+1. Brush the tops of the scones with heavy cream and sprinkle with coarse sugar. Bake for 15 to 20 minutes or until golden brown. Transfer to a wire rack to cool and drizzle with glaze.
+
+### Make the Glaze
 1. Combine all the ingredients for the glaze in a small bowl and whisk until smooth.
 
 ### Tips
-* Cranberries: I like fresh cranberries best because they're dry and don't stain the dough. You can use packaged, frozen, and thawed cranberries but keep in mind they may be wet and stain the dough. If you have fresh cranberries that have been frozen, these will work beautifully. Dried cranberries will also work.
+* Cranberries: Fresh cranberries work best because they are dry and do not stain the dough. Frozen and thawed or dried cranberries also work, though thawed cranberries may stain the dough.
 
-* Keep the dough cold: The scones need to be cold when going into the oven. Placing the shaped dough into the freezer for 30 minutes ensures the scones will bake up light and fluffy. Alternatively, you can place the scone dough in the refrigerator for at least 2 hours.
+* Keep the dough cold: Freeze the shaped scones for 30 minutes or refrigerate them for at least 2 hours before baking.

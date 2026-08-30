@@ -31,7 +31,7 @@ TIME: 30 minutes
 * ½ cup milk
 * ¼ cup peanut oil, plus a splash more for greasing pan
 * Pat of butter
-* 1 pound flounder or any firm white-fleshed fish, cut across the grain of the flesh into strips about 1/2 inch * wide by 3 inches long
+* 1 pound flounder or any firm white-fleshed fish, cut across the grain into strips about 1/2 inch wide by 3 inches long
 * 12 6-inch fresh corn tortillas
 * 2 cups shredded green cabbage
 * A saucy hot sauce, like Tapatio or Frank’s
@@ -48,4 +48,4 @@ TIME: 30 minutes
 1. Pour 1/4 cup of the peanut oil into a 12-inch frying pan and place over medium-high heat until it shimmers and is about to smoke. Remove the fish pieces from the milk bath and dredge them lightly through the flour mixture, shaking to remove excess. Add the butter to the pan. Place some fish pieces in the oil, without crowding them, and cook until deep golden brown on one side, 3 to 4 minutes. Turn carefully and cook for 1 minute more. Remove to a warmed, paper-towel-lined plate and sprinkle with salt. Repeat with the remaining fish.
 
 1. Meanwhile, lightly grease a skillet with a drizzle of oil and set over medium heat. Heat the tortillas, one or two at a time, until they are soft and hot. Keep them warm, wrapped in a dish towel.
-Fill each tortilla with 3 pieces of fish, browned side up, followed by tomato salsa and a pinch of cabbage. Drizzle with the cream sauce. Serve 2 to 3 tacos per person, with lime wedges and hot sauce on the side.
+1. Fill each tortilla with 3 pieces of fish, browned side up, followed by tomato salsa and a pinch of cabbage. Drizzle with the cream sauce. Serve 2 to 3 tacos per person, with lime wedges and hot sauce on the side.

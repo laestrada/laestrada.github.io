@@ -10,6 +10,8 @@ link: https://thewoksoflife.com/spicy-cold-tofu-liangban-dofu/
 ## Details
 Servings: 4
 
+Total time: 5 minutes
+
 ## Ingredients
 * 1 tablespoon soy sauce
 * 1 tablespoon spicy bean paste

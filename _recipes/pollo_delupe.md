@@ -4,27 +4,31 @@ date: 2017-01-05
 title: Pollo de Lupe
 author: Lupe
 type: Dominican
-featured_image: /images/gandules.jpg
+featured_image: /images/default.png
 link:
 ---
 
-# Description
+## Details
 
 This recipe was taught to us by a Dominican woman named Lupe in the Dominican Republic. It's a very tasty variation from our family recipe for pollo guisado that results in a sweeter tasting chicken.
 
 ## Ingredients
 
-- Chicken
-- Lime
-- Red Onion
-- Pepper (any color)
-- Cilantro
-- Garlic
-- Sugar
-- Salt
-- Oregano
-- Pepper
-- Sazon (completa)
+- Chicken, cut into small pieces
+- 1/2 lime
+- Red onion, chopped
+- Bell or banana pepper, chopped
+- Cilantro, stems included
+- Garlic, mashed or minced
+- 1 tablespoon sugar
+- Salt, to taste
+- Oregano, to taste
+- Black pepper, to taste
+- Sazón completa, to taste
+- Oil, for the pan
+- Water, as needed
+- 1 bouillon cube
+- Tomato paste, to taste
 
 ## Preparation:
 
@@ -42,8 +46,8 @@ This recipe was taught to us by a Dominican woman named Lupe in the Dominican Re
 
 7. Add in chicken cutlets, turn over then cover and let cook occasionally flipping
 
-8. Add in some water and bouillion cube. The water should have the peppers and onions and cilantro  in it
+8. Add water and the bouillon cube along with the peppers, onions, and cilantro.
 
-9. Add in tomato paste and simmer until done. Add salt as needed 
+9. Add tomato paste and simmer until the thickest chicken pieces reach 165°F. Add salt as needed.
 
-10. Add bunch of cilantro cut up — include stems
+10. Add a chopped bunch of cilantro, including the stems.

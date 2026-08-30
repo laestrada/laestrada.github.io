@@ -9,7 +9,7 @@ link: https://smittenkitchen.com/2019/08/black-pepper-tofu-and-eggplant/
 ---
 ## Ingredients:
 * 14-ounce package extra-firm tofu
-* Neutral oil for roasting (I use safflower)
+* Neutral high-heat oil for roasting, such as safflower or sunflower
 * 1 tablespoon cornstarch
 * 3/4 to 1 pound eggplant
 * Kosher salt
@@ -28,7 +28,7 @@ link: https://smittenkitchen.com/2019/08/black-pepper-tofu-and-eggplant/
 
 1. Roast tofu and eggplant in oven for 20 minutes to start. After 20 minutes, use your thinnest spatula to gently separate the tofu from the pan and flip to crisp and brown on the other side, about another 10 minutes. Do the same with the eggplant. At 30 minutes, the tofu should be crisp and browned and the eggplant should be roasted and tender. If needed, cook it for 5 more minutes.
 
-1. While tofu and eggplant roasts, prepare the sauce. Heat a large, heavy skillet over medium heat and add butter. Once butter melts, add shallots, garlic, and ginger. Reduce heat slightly and cook, stirring here and there, until everything is tender, about 11 to 14 minutes. Add the soy sauce, sugar, and black pepper and cook, simmering, for 3 minutes more. Add roasted tofu and eggplant to pan and stir to coat with sauce; cook for one to two minutes minute together. Serve over or with rice; add extra heat as needed.
+1. While the tofu and eggplant roast, prepare the sauce. Heat a large, heavy skillet over medium heat and add the butter. Once it melts, add the shallots, garlic, and ginger. Reduce the heat slightly and cook, stirring occasionally, until tender, about 11 to 14 minutes. Add the soy sauce, sugar, and black pepper and simmer for 3 minutes. Add the roasted tofu and eggplant, stir to coat, and cook together for 1 to 2 minutes. Serve with rice and additional chile sauce as desired.
 
 ## Notes
 

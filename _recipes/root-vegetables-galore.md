@@ -26,13 +26,14 @@ Use any combination of root vegetables, keeping the total net weight the same. S
 * 10g dill leaves, roughly chopped
 * 3 tbsp dukkah, shop-bought or homemade
 
-For the tahini yoghurt
+### For the tahini yoghurt
 * 75g tahini
 * 115g Greek-style yoghurt
 * 2½ tbsp lemon juice
 * 2 garlic cloves, peeled and crushed
 * Salt and black pepper
 
+## Preparation
 1. Heat the oven to 220C (200C fan)/425F/gas 7. Add the root vegetables, tomato paste, two tablespoons of oil, a teaspoon of salt and a good grind of pepper to a large roasting tin roughly 38cm x 26cm, and toss everything together to combine. Pour in the stock, then bake for 30 minutes.
 
 1. Meanwhile, in a medium bowl toss together the chickpeas, harissa, two tablespoons of oil and a quarter-teaspoon of salt and set aside.

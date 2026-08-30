@@ -2,10 +2,10 @@
 layout: recipe
 date: 2024-12-15
 title: Confit Chickpeas
-author: Yotam Ottolenghi 
+author: Yotam Ottolenghi
 type: Mains
 featured_image: https://assets.epicurious.com/photos/6228c22c1f7a61a76db517fc/1:1/w_2240,c_limit/Confit%20Tandoori%20Chickpeas.jpg
-link: https://www.epicurious.com/recipes/food/views/confit-tandoori-chickpeas (also in the cookbook "Shelf Love")
+link: https://www.epicurious.com/recipes/food/views/confit-tandoori-chickpeas
 ---
 ## Ingredients:
 ### Confit
@@ -34,7 +34,7 @@ link: https://www.epicurious.com/recipes/food/views/confit-tandoori-chickpeas (a
 ## Preparation
 1. Preheat the oven to 350° F.
 
-2. Put the chickpeas, whole garlic cloves, ginger, tomatoes, chiles, tomato paste, spices, sugar, oil, and 1 teaspoon of salt into a large, oven-safe sauté pan, for which you have a lid, and mix everything together to combine. 
+2. Put the chickpeas, whole garlic cloves, ginger, tomatoes, chiles, tomato paste, spices, sugar, oil, and 1 teaspoon of salt into a large, oven-safe sauté pan, for which you have a lid, and mix everything together to combine.
 
 3. Cover with the lid, transfer to the oven and cook for 75 minutes, stirring halfway through, until the aromatics have softened and the tomatoes have nicely broken down.
 
@@ -46,4 +46,4 @@ link: https://www.epicurious.com/recipes/food/views/confit-tandoori-chickpeas (a
 ## Notes
 The yogurt is a key component.
 
-Jarred or canned butter beans (lima beans) would be great here! No Kashmiri chile powder? Use an equal amount of paprika instead.
+Butter beans (lima beans) can replace the chickpeas. If Kashmiri chile powder is unavailable, use an equal amount of paprika.

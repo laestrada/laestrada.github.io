@@ -30,7 +30,9 @@ TIME: 30 Minutes
 ## Preparation
 1. Preheat oven to 400 degrees. Line a baking sheet with parchment.
 
-1. Sift together flours, baking powder, baking soda, sugar and salt. Stir in oatmeal. Rub in butter, or place in a stand mixer fitted with the paddle and beat at low speed, or pulse in a food processor, until incorporated. 1. Add buttermilk and raisins and mix just until dough comes together.
+1. Sift together the flours, baking powder, baking soda, sugar, and salt. Stir in the oatmeal. Rub in the butter, beat it in with a stand mixer's paddle attachment on low speed, or pulse it in a food processor until incorporated.
+
+1. Add the buttermilk and raisins and mix just until the dough comes together.
 
 1. Transfer to a lightly floured work surface and gently shape into a 1/2-inch thick rectangle. Cut either into 2-inch circles with a biscuit cutter or into 6 squares, then cut each square in half on the diagonal. Transfer to baking sheet. Bake 15 minutes, until browned on the bottom. Flip over, bake 2 more minutes, and remove from the heat. Serve warm or allow to cool.
 

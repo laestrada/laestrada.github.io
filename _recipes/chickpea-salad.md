@@ -15,7 +15,7 @@ Yield: 4 servings
 ### For salad:
 * 1 medium butternut squash (about 2 to 2 1/2 pounds), peeled, seeded, and cut into 1 1/2-inch pieces
 * 1 medium garlic clove, minced or pressed
-* 1/2 teaspoons ground allspice (I skip this)
+* 1/2 teaspoon ground allspice (optional)
 * 2 tablespoons olive oil
 * Salt
 * One 15-ounce can chickpeas, drained and rinsed (1 1/2 cups)
@@ -39,4 +39,6 @@ Yield: 4 servings
 
 1. To assemble the salad, combine the squash, chickpeas, onion, and cilantro or parsley in a mixing bowl. Either add the tahini dressing to taste, and toss carefully, or you could serve the salad with the dressing on the side. Serve immediately.
 
-1. Do ahead: Molly says this salad, lightly dressed, keeps beautifully in the fridge, that you should hold a little of the dressing on the side and that it can be reheated in the microwave. I, for one, have never had any leftovers.
+### Make ahead
+
+The lightly dressed salad keeps well in the refrigerator and can be reheated in the microwave. Reserve some dressing to add after reheating.

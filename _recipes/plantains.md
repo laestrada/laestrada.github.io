@@ -8,18 +8,21 @@ featured_image: https://www.thespruceeats.com/thmb/W_P9CdaEwxhVEUuo04U0JFh1eQM=/
 link:
 ---
 ## Ingredients
-* plantains
-* olive or vegetable oil
+* Green plantains for tostones, or ripe plantains for maduros
+* Olive or vegetable oil
+* Salt, to taste
 
 ## Preparation:
 
-1. Peel the plantains, Cut them into reasonably thick slices (2/3 inch). 
+1. Peel the plantains and cut them into roughly 2/3-inch slices.
 
 1. Heat the oil.
 
-1. Fry the plantains on each side. Take them out, smash them with the bottom of a cup, and refry.
+1. For green plantains, fry each side until pale gold. Remove, smash with the bottom of a cup, and fry again until crisp.
 
-1. Add Salt to taste
+1. For ripe plantains, fry each side once until browned and tender; do not smash them.
+
+1. Season with salt.
 
 ### Tips
-* Riper plantains will be sweeter (maduros). The green ones will be savory (tostones).
+* Ripe plantains make sweet maduros; green plantains make savory tostones.

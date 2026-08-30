@@ -16,15 +16,15 @@ Servings: 4
 * 4 tablespoons light soy sauce
 * 4 tablespoons dark soy sauce
 * 1 teaspoon Chinese black vinegar (or rice vinegar)
-* 2 teaspoon toasted sesame oil
+* 2 teaspoons toasted sesame oil
 * 4 teaspoons sugar
-* 2 teaspoon chili oil (optional)
-* 2 teaspoon mushroom bouillon (optional)
-* 0.68 cup (80 g) hot water (from cooking noodles)
-* 2 pinch salt, to taste
+* 2 teaspoons chili oil (optional)
+* 2 teaspoons mushroom bouillon (optional)
+* About 1/3 cup (80 ml) hot noodle-cooking water
+* 2 pinches salt, or to taste
 
 #### Toppings
-* 2 scallion, finely chopped
+* 2 scallions, finely chopped
 * 60 grams roasted peanuts, crushed
 
 ## Preparation

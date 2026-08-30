@@ -11,7 +11,7 @@ link:
 * 6 Yukon Gold Potatoes
 * 4 Hard Boiled Eggs
 * 1/4 Cup Spanish Olives
-* 1/2 Cup Mayonaise
+* 1/2 cup mayonnaise
 * 1/4 Cup Olive oil
 * A few red pepper slices
 * Garlic Powder to taste
@@ -23,8 +23,8 @@ link:
 
 1. Cut the potatoes into medium sized chunks. Boil the potatoes until soft. In parallel, hard boil the eggs.
 
-1. Mash the potatoes and eggs until texture is smooth. 
+1. Mash the potatoes and eggs until texture is smooth.
 
-1. Add mayonaise, olive oil, olives, and spices, tasting frequently and adjusting to taste.
+1. Add mayonnaise, olive oil, olives, and spices, tasting frequently and adjusting as needed.
 
 1. Serve with red peppers on top.

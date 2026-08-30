@@ -3,7 +3,7 @@ layout: recipe
 date: 2017-01-05
 title: Baked Orzo with Eggplant and Mozzarella
 author: Smitten Kitchen
-type: Other
+type: Mains
 featured_image: https://i1.wp.com/smittenkitchen.com/wp-content/uploads//2012/09/baked-orzo-with-eggplant-and-mozz.jpg?fit=750%2C500&ssl=1
 link: https://smittenkitchen.com/2012/09/baked-orzo-with-eggplant-and-mozzarella/
 ---
@@ -28,14 +28,14 @@ Serves 4
 * 3 medium tomatoes, diced
 
 ## Preparation
-1. Sprinkle your eggplant generously with salt and let it drain in a colander for 30 minutes. I used this time to get the rest of my ingredients ready. After 30 minutes, rinse it well and pat it dry on towels.
+1. Sprinkle the eggplant generously with salt and let it drain in a colander for 30 minutes. Use this time to prepare the remaining ingredients. Rinse the eggplant well and pat it dry.
 
-1. Preheat your oven to 350°F. Heat a large frying pan over medium-high heat. Once hot, add the oil and once the oil is shimmering, add the eggplant. Fry for 8 minutes, stirring pieces occasionally. Using a slotted spoon or spatula, transfer them to paper towels to drain. Add celery and carrots to remaining oil and cook for 1. 3 minutes before adding onion and garlic. Cook together for 5 more minutes on medium heat. Stir in the orzo and tomato paste and cook for two minutes more. Off the heat, add the oregano, mozzarella, parmesan, tomatoes, fried eggplant, lemon zest, 1 teaspoon table salt, many grinds of black pepper and the stock and mix well.
+1. Preheat the oven to 350°F. Heat a large frying pan over medium-high heat. Once hot, add the oil. When the oil is shimmering, add the eggplant. Fry for 8 minutes, stirring occasionally, then transfer to paper towels with a slotted spoon or spatula. Add the celery and carrots to the remaining oil and cook for 1 to 3 minutes before adding the onion and garlic. Cook together over medium heat for 5 more minutes. Stir in the orzo and tomato paste and cook for 2 minutes. Remove from the heat, add the oregano, mozzarella, parmesan, tomatoes, eggplant, lemon zest, 1 teaspoon salt, black pepper, and stock, and mix well.
 
 1. Transfer mixture to an 8×11-inch (about 2 quarts) ovenproof baking dish. Cover with foil and bake 20 minutes, then bake 20 minutes without the foil. (You can increase the ratio of foil-on to foil-off time if you don’t like a crunchy pasta lid.) Let rest for 5 minutes before serving.
 
 ### Tips:
-* Don't forget to rinse eggplant. Cook vegetables till they are tender -- didn't get soft in the oven. More mozzarella wouldn't hurt.
+* Rinse the salted eggplant, and cook the vegetables until tender because they will not soften much in the oven.
 * Water can replace the vegetable broth, and canned tomatoes can replace fresh tomatoes.
 * Use half as much dried oregano as fresh. Thyme also works, but use half as much because it is stronger.
 * Whole-wheat orzo works as written. Other grains may need more broth and should be par-cooked if they take longer than pasta.

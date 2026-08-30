@@ -14,7 +14,7 @@ YIELD: 12 Brownies
 TIME: 45 Minutes
 
 ## Ingredients
-#### FOR THE SCONES:
+### Brownies
 
 * ½ cup cocoa
 * ½ cup butter (1 stick)

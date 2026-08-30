@@ -4,8 +4,8 @@ date: 2017-05-16
 title: Carrot Cake Breakfast Cookies
 author: Cookie and Kate
 type: Baking
-featured_image: https://www.eatingbirdfood.com/wp-content/uploads/2021/08/carrot-cake-breakfast-cookies-hero.jpg
-link: Love Real Food
+featured_image: /images/breakfast_cookies.png
+link: https://cookieandkate.com/love-real-food-cookbook/
 ---
 
 ## Details
@@ -13,14 +13,14 @@ Makes 10 large cookies.
 
 ## Ingredients
 
-* 1 cup quick cooking oats (or old-fashioned, which is what I use)
+* 1 cup quick-cooking or old-fashioned oats
 * 1 cup whole wheat flour
 * 1 teaspoon baking powder
 * 1 teaspoon ground cinnamon
 * 1/2 teaspoon sea salt
 * 1/4 teaspoon ground ginger
 * 1 1/2 cups peeled grated carrots (or sweet potatoes)
-* 1 cup roughly chopped nuts (I use cashews)
+* 1 cup roughly chopped nuts, such as cashews
 * 1/4 cup raisins (preferably golden)
 * 1/2 cup honey or maple syrup (or less)
 * 1/2 cup melted coconut oil

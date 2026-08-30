@@ -23,7 +23,7 @@ Servings: 12 eggs
 * 4-5 cups water (enough so all eggs are submerged)
 
 ### Spices
-* Chinese spice braising {packet}(https://thewoksoflife.com/chinese-spice-braising-packets/), OR
+* Chinese spice braising packet, OR
 * 3 star anise
 * 1 cinnamon stick
 * 2 bay leaves
@@ -34,6 +34,6 @@ Servings: 12 eggs
 
 1. Boil the eggs: bring to room temperature, then boil a large pot of water. Gently lower the eggs into the pot, and set timer for 7 minutes. After 7 minutes, scoop out the eggs and transfer to an ice bath.
 
-2. Prep the spice bath: combine all other ingredients in a large pot. Bring the mixture to a boil, and the turn the heat down to a simmer. Cover and simmer for 10 minutes. Then turn off the heat, open the lid, set it aside, and let it cool completely.
+2. Prepare the spice bath: combine all remaining ingredients in a large pot. Bring the mixture to a boil, then reduce to a simmer. Cover and simmer for 10 minutes. Turn off the heat, uncover, and let it cool completely.
 
 3. Soak the eggs in the spice bath, ideally for 24+ hours. Eggs last in the fridge for 3-4 days.

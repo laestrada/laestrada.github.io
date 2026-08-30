@@ -4,11 +4,13 @@ layout: default
 
 <article class="recipe-card">
   <div class="flex-container">
-    <img class="img-circle-recipe" src="{{ page.featured_image }}" alt="{{ page.title }}">
+    <img class="img-circle-recipe" src="{{ page.featured_image }}" alt="{{ page.title }}" onerror="this.onerror=null;this.src='/images/default.png';">
   </div>
   <h1 class="flex-title">{{ page.title }}</h1>
   {{ content }}
-  <p>
-    Originally from <a href="{{ page.link }}">{{ page.author }}</a>
-  </p>
+  {% if page.link %}
+  <p>Originally from <a href="{{ page.link | escape }}">{{ page.author }}</a></p>
+  {% else %}
+  <p>Originally from {{ page.author }}</p>
+  {% endif %}
 </article>

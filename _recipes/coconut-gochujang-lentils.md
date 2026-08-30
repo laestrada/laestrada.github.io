@@ -37,7 +37,7 @@ link: https://www.okonomikitchen.com/creamy-coconut-gochujang-lentils/
 
 4. Drizzle in soy sauce and stir to combine.
 
-5. Serve with rice, lime juice, cashews, cilantro and scallion tops. Enjoy!
+5. Serve with rice, lime juice, cashews, cilantro, and scallion tops.
 
 ## Notes
 Sriracha can replace gochujang, and crushed red pepper can replace gochugaru.

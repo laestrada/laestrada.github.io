@@ -25,16 +25,16 @@ Servings 4
 *   1 medium shallot (minced)
 *   2 Tbsp minced fresh ginger
 *   2 Tbsp minced garlic
-*   1 medium Thai red chili (or serrano pepper // stem removed, thinly sliced // remove seeds or omit for less heat)
-*   2\-3 Tbsp red curry paste\*
-*   1 large sweet potato (or sub 2 small per 1 large // skin removed + cubed into even, bite-sized pieces)
+*   1 medium Thai red chili or serrano pepper, stemmed and thinly sliced (remove seeds or omit for less heat)
+*   2-3 Tbsp red curry paste
+*   1 large sweet potato or 2 small sweet potatoes, peeled and cut into even bite-size pieces
 *   2 14-ounce cans light coconut milk (sub full fat for extra creamy texture)
 *   1\-2 Tbsp maple syrup (plus more to taste)
 *   1 1/2 tsp ground turmeric
 *   Sea salt to taste (_optional_)
 *   1/4 cup frozen green peas (_optional_)
 *   2 cups chopped kale
-*   1/2 cup roasted cashews (_optional_ // lightly salted is best)
+*   1/2 cup lightly salted roasted cashews (optional)
 *   1 medium lemon, juiced
 
 #### FOR SERVING _optional_
@@ -47,30 +47,22 @@ Servings 4
 ## Preparation
 
 1.   Heat a large pot over medium heat. Once hot, add coconut oil, shallot, ginger, garlic, and pepper. Sauté for 2-3 minutes, stirring frequently.
-    
+
 1.   Add red curry paste and sweet potato, stir, and cook for 2 minutes more.
-    
+
 1.   Add coconut milk, maple syrup, turmeric, and a pinch of salt and stir. Bring to a simmer over medium heat.
-    
+
 1.   Once simmering, add peas (optional) and slightly reduce heat. You want a simmer, not a boil, which should be around low to medium-low heat.
-    
+
 1.   Cook for 5-10 minutes, stirring occasionally, to soften the potato and peas and infuse them with curry flavor.
-    
-1.   At this time, also taste and adjust the flavor of the broth as needed. I added more maple syrup for sweetness, sea salt for saltiness, and turmeric for a more intense curry flavor. You can also add more curry paste for more spice and intense curry flavor. Don't be shy with seasonings - this curry should be very flavorful.
-    
+
+1.   Taste and adjust the broth with maple syrup for sweetness, salt for depth, turmeric for earthiness, or additional curry paste for heat.
+
 1.   Once the broth is well seasoned and the potatoes are softened, add kale, cashews (optional) and lemon juice, and cover. Simmer for 3-4 minutes more over low to medium-low heat.
-    
-1.   Serve over rice, quinoa, or steamed broccoli (broccoli and rice being my favorites). This dish gets elevated with the addition of more lemon juice and Thai or regular basil for serving.
-    
 
-### Notes
+1.   Serve over rice, quinoa, or steamed broccoli, with additional lemon juice and basil if desired.
 
-\*Ensure your curry paste is vegan friendly (and does not contain fish ingredients). I love the brands [Thai Kitchen](https://www.amazon.com/dp/B007QR5EPQ/?tag=minimalistbaker-20) and [Thai True](https://www.amazon.com/dp/B007MX9UOA/?tag=minimalistbaker-20).  
-\*This is an inspired (not traditional) Thai red curry.  
-\*Find my favorite method for cooking brown rice at [Saveur](http://www.saveur.com/perfect-brown-rice-recipe)!  
-\*Questions about substitutions, equipment, or troubleshooting? Check out our [Recipe FAQ page](https://minimalistbaker.com/recipe-faq/).  
-\*Nutrition information is a rough estimate.
 
-### Nutrition (1 of 4 servings)
+### Note
 
-Serving: 1 serving Calories: 385 Carbohydrates: 35.1 g Protein: 8 g Fat: 26.6 g Saturated Fat: 17.1 g Trans Fat: 0 g Cholesterol: 0 mg Sodium: 660 mg Fiber: 3.5 g Sugar: 6.9 g
+For a vegan curry, check that the curry paste does not contain fish products.
