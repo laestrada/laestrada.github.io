@@ -18,9 +18,9 @@ Cambridge, MA | 2022-2027 (expected)
 *B.A. in Geoscience & Computer Science; Varsity XC and Track*  
 Williamstown, MA | 2015-2019
 
-## Selected Publications
+## First-author Publications
 
-- **Estrada, L. A.**, Jacob, D. J., He, M., East, J. D., Varon, D. J., Balasus, N., Hancock, S. E., Sulprizio, M., Bowman, K. W., Worden, J. R., Reidy, E., and Runkle, B. R. K. Quantifying national, state, and oil/gas field methane emissions and trends in the U.S. (2019-2024) through high resolution inversion of satellite observations. *EGUsphere* [preprint], 2026. [https://doi.org/10.5194/egusphere-2026-655](https://doi.org/10.5194/egusphere-2026-655)
+- **Estrada, L. A.**, Jacob, D. J., He, M., East, J. D., Varon, D. J., Balasus, N., Hancock, S. E., Sulprizio, M., Bowman, K. W., Worden, J. R., Reidy, E., and Runkle, B. R. K.: Quantifying national, state, and oil/gas field methane emissions and trends in the US (2019–2024) through high resolution inversion of satellite observations, Atmospheric Chemistry and Physics, 26, 10629–10646, [https://doi.org/10.5194/acp-26-10629-2026](https://doi.org/10.5194/acp-26-10629-2026), 2026.
 - **Estrada, L. A.**, Varon, D. J., Sulprizio, M., Nesser, H., Chen, Z., Balasus, N., Hancock, S. E., He, M., East, J. D., Mooring, T. A., Oort Alonso, A., Maasakkers, J. D., Aben, I., Baray, S., Bowman, K. W., Worden, J. R., Cardoso-Saldana, F. J., Reidy, E., and Jacob, D. J. Integrated Methane Inversion (IMI) 2.0: an improved research and stakeholder tool for monitoring total methane emissions with high resolution worldwide using TROPOMI satellite observations. *Geoscientific Model Development*, 18, 3311-3330, 2025. [https://doi.org/10.5194/gmd-18-3311-2025](https://doi.org/10.5194/gmd-18-3311-2025)
 
 ## Relevant Experience
@@ -79,6 +79,7 @@ Chatham, NH | Summer 2017
 
 ## Conferences and Talks
 
+- **EGU 2026:** *Near-real-time monitoring of methane emissions in the Appalachian Basin*
 - **AGU 2025:** *Quantifying U.S. methane emission trends (2019-2024)*
 - **MIT Mites STEM Talk 2025:** *Research and career talk for 200+ students*
 - **EGU 2025:** *Quantifying U.S. methane emission trends (2019-2024)*
